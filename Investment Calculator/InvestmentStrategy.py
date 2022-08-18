@@ -1,6 +1,5 @@
 #Investment strategy
 import locale
-import math
 locale.setlocale(locale.LC_MONETARY, 'en_IN')
 def getStrategy(age):
     #(high,med,bharatpe,ulip,gold,fd)
@@ -57,14 +56,14 @@ def printVal(value,invested,age):
     print("Gold Investmet     := {}, Expected Value := {}".format(locale.currency(invested[4], grouping=True),locale.currency(value[4], grouping=True)))
     print("FD Investmet       := {}, Expected Value := {}".format(locale.currency(invested[5], grouping=True),locale.currency(value[5], grouping=True)))
     print("_"*80)
-    print("Total Invested Amount = {}, Expected Value = {}".format(locale.currency(sum(invested), grouping=True),locale.currency(sum(value), grouping=True)))
-    print("Average Return = {0:.2f}%, Current Value = {1}".format(findAvgReturn(invested,age-currentAge),locale.currency(findCurrentValue(sum(value),age-currentAge), grouping=True)))
+    print("Total Invested Amount := {}, Expected Value := {}".format(locale.currency(sum(invested), grouping=True),locale.currency(sum(value), grouping=True)))
+    print("Average Return := {0:.2f}%, Current Value := {1}".format(findAvgReturn(invested,age-currentAge),locale.currency(findCurrentValue(sum(value),age-currentAge), grouping=True)))
     print("_"*80)
 
 def evaluateInvestment(income,value,invested,age):
     strategy=getStrategy(age)
     amount=[]
-    if age>20 and age%5==0:
+    if age>20 and age%10==0:
         printVal(value,invested,age)
     for i in range (6):
         value[i]*=(1+ret[i])
@@ -76,6 +75,7 @@ def evaluateInvestment(income,value,invested,age):
         invested[i]+=amount[i]
     
 income=25000#int(input("Enter your monthly investment amount: "))
+currentIncome=income
 age=25#int(input("Enter your age: "))
 lumpsum=180000 #int(input("Enter Total Amount Invested till now: "))
 currentAge=age
@@ -85,11 +85,11 @@ ret=(0.20,0.15,0.12,0.10,0.08,0.05)
 value=[0,lumpsum,0,0,0,0]
 invested=[0,lumpsum,0,0,0,0]
 income*=12
-while age<=45:
+while age<=40:
     evaluateInvestment(income,value,invested,age)
     income+=(income/10)
     age+=1
-print("-"*20+"All Investment moves to FD at Age of 61".upper()+"-"*21)
+print("-"*20+f"All Investment moves to FD at Age of {age}".upper()+"-"*21)
 print("="*80)
 fd=sum(value)
 print("Total Amount := {}".format(locale.currency(fd, grouping=True)))
@@ -97,26 +97,35 @@ print("-"*80)
 currentValue=fd*((.95)**(age-currentAge))
 print("5% Inflation Adjusted, Current Value := {}".format(locale.currency(currentValue, grouping=True)))
 print("="*80)
-expense=75000#int(input("Enter Current Monthly Expenses : "))
+expense=50000#int(input("Enter Current Monthly Expenses : "))
 expense*=((1.05)**(age-currentAge))
-
+investmentAge=age-currentAge
 print("Expenses at age of {} Per Month:= {}".format(age,locale.currency(expense, grouping=True)))
 print("="*80)
 expense*=12
 while age:
-    
     fd-=expense
-    fd*=1.05
+    if age<50:
+        fd*=1.15
+    elif age<=60:
+        fd*=1.1
+    else:
+        fd*=1.05
     expense*=1.05
     if fd<=0:
         print("_"*80)
         print("-"*28+"Bank Currupt, Age := {}".format(age)+"-"*28)
-        print("_"*80)
         break
-    if age%5==0:
+    if age==85:
+        print("_"*80)
+        print("Successfully lived {} years, Total Amount := {}".format(age,locale.currency(fd, grouping=True)))
+        print("Current Value := {}".format(locale.currency(findCurrentValue(fd,age-currentAge), grouping=True)))
+        print(f"Investment Per Month := {currentIncome}, Hikes := 10%, Years := {investmentAge}")
+        #break
+    if age<85 and age%5==0:
         print("-"*80)
         print("Age {} Amount := {}".format(age,locale.currency(fd, grouping=True)))
-    
     age+=1
+print("_"*80)
 print("="*80)    
     
