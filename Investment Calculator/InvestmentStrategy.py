@@ -74,7 +74,7 @@ def evaluateInvestment(income,value,invested,age):
         value[i]+=amount[i]
         invested[i]+=amount[i]
     
-income=25000#int(input("Enter your monthly investment amount: "))
+income=15000#int(input("Enter your monthly investment amount: "))
 currentIncome=income
 age=25#int(input("Enter your age: "))
 lumpsum=180000 #int(input("Enter Total Amount Invested till now: "))
@@ -85,7 +85,9 @@ ret=(0.20,0.15,0.12,0.10,0.08,0.05)
 value=[0,lumpsum,0,0,0,0]
 invested=[0,lumpsum,0,0,0,0]
 income*=12
-while age<=40:
+
+#Age till investment
+while age<=45:
     evaluateInvestment(income,value,invested,age)
     income+=(income/10)
     age+=1
@@ -97,6 +99,8 @@ print("-"*80)
 currentValue=fd*((.95)**(age-currentAge))
 print("5% Inflation Adjusted, Current Value := {}".format(locale.currency(currentValue, grouping=True)))
 print("="*80)
+
+#Monthly Expenses
 expense=50000#int(input("Enter Current Monthly Expenses : "))
 expense*=((1.05)**(age-currentAge))
 investmentAge=age-currentAge
