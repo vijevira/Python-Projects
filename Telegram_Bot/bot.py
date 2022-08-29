@@ -1,9 +1,9 @@
 from telegram import *
 from telegram.ext import *
 
-bot = Bot("1010877109:AAHa6JPCQdeYKUkZBOc9w7eF2D4SaLNARxE")
+bot = Bot("enter your boat id here")
 print(bot.get_me())
-updater=Updater("1010877109:AAHa6JPCQdeYKUkZBOc9w7eF2D4SaLNARxE",use_context=True)
+updater=Updater("enter your bot id here",use_context=True)
 
 dispatcher=updater.dispatcher
 # For Commands
