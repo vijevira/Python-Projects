@@ -41,9 +41,9 @@ def calculateExpense(expense,year):
         total+=expense
     return total
     
-income=15000#int(input("Enter Your Monthly Investment Amount : "))
+income=30000#int(input("Enter Your Monthly Investment Amount : "))
 income*=12
-expense=50000#int(input("Enter Monthly Expenses : "))
+expense=30000#int(input("Enter Monthly Expenses : "))
 expense*=12
 rate=15#int(input("Expected Return Per Annum : "))
 rate/=100
