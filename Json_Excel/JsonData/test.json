@@ -1,11 +1,5 @@
 [
   {
-    "FIELD F": "F0",
-    "FIELD E": "E0",
-    "FIELD D": "",
-    "FIELD C": "",
-    "FIELD B": "",
-    "FIELD A": "",
     "RECORD KEY BDP": "BD000000PZSY",
     "FIN SERVICE CODES": "",
     "TIMEZONE": "2",
@@ -59,12 +53,6 @@
     "ndSourceFile": "88073b4e-37e7-43c1-a0c4-51839ae1720b"
   },
   {
-    "FIELD F": "F1",
-    "FIELD E": "E1",
-    "FIELD D": "",
-    "FIELD C": "",
-    "FIELD B": "",
-    "FIELD A": "",
     "RECORD KEY BDP": "BD000000PZSY",
     "FIN SERVICE CODES": "",
     "TIMEZONE": "2",
@@ -118,12 +106,6 @@
     "ndSourceFile": "88073b4e-37e7-43c1-a0c4-51839ae1720b"
   },
   {
-    "FIELD F": "F2",
-    "FIELD E": "E2",
-    "FIELD D": "",
-    "FIELD C": "",
-    "FIELD B": "",
-    "FIELD A": "",
     "RECORD KEY BDP": "BD000000PZSY",
     "FIN SERVICE CODES": "",
     "TIMEZONE": "2",
@@ -177,12 +159,6 @@
     "ndSourceFile": "88073b4e-37e7-43c1-a0c4-51839ae1720b"
   },
   {
-    "FIELD F": "F3",
-    "FIELD E": "E3",
-    "FIELD D": "",
-    "FIELD C": "",
-    "FIELD B": "",
-    "FIELD A": "",
     "RECORD KEY BDP": "BD000000PZSY",
     "FIN SERVICE CODES": "",
     "TIMEZONE": "2",
@@ -236,12 +212,6 @@
     "ndSourceFile": "88073b4e-37e7-43c1-a0c4-51839ae1720b"
   },
   {
-    "FIELD F": "F4",
-    "FIELD E": "E4",
-    "FIELD D": "",
-    "FIELD C": "",
-    "FIELD B": "",
-    "FIELD A": "",
     "RECORD KEY BDP": "BD000000PZSY",
     "FIN SERVICE CODES": "",
     "TIMEZONE": "2",

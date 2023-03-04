@@ -67,9 +67,11 @@ let totalTestCases = 5;
 
 let dataSet = [];
 for (let i = 0; i < totalTestCases; i++){
-    for (fieldName in changeFieilds) {
-        let newValue = changeFieilds[fieldName] + i;
-        inputData[fieldName] = newValue;
+    for (let feildName in changeFieilds) {
+        if (changeFieilds.hasOwnProperty(feildName)){
+            let newValue = changeFieilds[feildName] + i;
+            inputData[feildName] = newValue;
+        }
     }
     dataSet.push({...inputData});
 }
