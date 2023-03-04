@@ -1,0 +1,4072 @@
+[
+  {
+    "code": "AB01",
+    "type": "ISO",
+    "label": "AbortedClearingTimeout",
+    "description": "Clearing process aborted due to timeout",
+    "undefined": "2023-02-08T07:10:58.000Z"
+  },
+  {
+    "code": "AB02",
+    "type": "ISO",
+    "label": "AbortedClearingFatalError",
+    "description": "Clearing process aborted due to a fatal error",
+    "undefined": "2023-02-08T07:10:58.023Z"
+  },
+  {
+    "code": "AB03",
+    "type": "ISO",
+    "label": "AbortedSettlementTimeout",
+    "description": "Settlement aborted due to timeout",
+    "undefined": "2023-02-08T07:10:58.027Z"
+  },
+  {
+    "code": "AB04",
+    "type": "ISO",
+    "label": "AbortedSettlementFatalError",
+    "description": "Settlement process aborted due to a fatal error",
+    "undefined": "2023-02-08T07:10:58.037Z"
+  },
+  {
+    "code": "AB05",
+    "type": "ISO",
+    "label": "TimeoutCreditorAgent",
+    "description": "Transaction stopped due to timeout at the Creditor Agent",
+    "undefined": "2023-02-08T07:10:58.045Z"
+  },
+  {
+    "code": "AB06",
+    "type": "ISO",
+    "label": "TimeoutInstructedAgent",
+    "description": "Transaction stopped due to timeout at the Instructed Agent",
+    "undefined": "2023-02-08T07:10:58.053Z"
+  },
+  {
+    "code": "AB07",
+    "type": "ISO",
+    "label": "OfflineAgent",
+    "description": "Agent of message is not online. Generic usage if it cannot be determined who exactly is not online",
+    "undefined": "2023-02-08T07:10:58.056Z"
+  },
+  {
+    "code": "AB08",
+    "type": "ISO",
+    "label": "OfflineCreditorAgent",
+    "description": "Creditor Agent is not online",
+    "undefined": "2023-02-08T07:10:58.080Z"
+  },
+  {
+    "code": "AB09",
+    "type": "ISO",
+    "label": "ErrorCreditorAgent",
+    "description": "Transaction stopped due to error at the Creditor Agent",
+    "undefined": "2023-02-08T07:10:58.086Z"
+  },
+  {
+    "code": "AB10",
+    "type": "ISO",
+    "label": "ErrorInstructedAgent",
+    "description": "Transaction stopped due to error at the Instructed Agent",
+    "undefined": "2023-02-08T07:10:58.090Z"
+  },
+  {
+    "code": "AB11",
+    "type": "ISO",
+    "label": "TimeoutDebtorAgent",
+    "description": "Transaction stopped due to timeout at the Debtor Agent",
+    "undefined": "2023-02-08T07:10:58.096Z"
+  },
+  {
+    "code": "AC01",
+    "type": "ISO",
+    "label": "IncorrectAccountNumber",
+    "description": "Account number {{accountId}} is invalid or missing",
+    "undefined": "2023-02-08T07:10:58.100Z"
+  },
+  {
+    "code": "AC02",
+    "type": "ISO",
+    "label": "InvalidDebtorAccountNumber",
+    "description": "Debtor account number {{accountId}} invalid or missing",
+    "undefined": "2023-02-08T07:10:58.104Z"
+  },
+  {
+    "code": "AC03",
+    "type": "ISO",
+    "label": "InvalidCreditorAccountNumber",
+    "description": "Creditor account number {{accountId}} invalid or missing",
+    "undefined": "2023-02-08T07:10:58.108Z"
+  },
+  {
+    "code": "AC04",
+    "type": "ISO",
+    "label": "ClosedAccountNumber",
+    "description": "Account number specified has been closed on the bank of account's books",
+    "undefined": "2023-02-08T07:10:58.110Z"
+  },
+  {
+    "code": "AC05",
+    "type": "ISO",
+    "label": "ClosedDebtorAccountNumber",
+    "description": "Debtor account number [{{accountId}}] closed",
+    "undefined": "2023-02-08T07:10:58.119Z"
+  },
+  {
+    "code": "AC06",
+    "type": "ISO",
+    "label": "BlockedAccount",
+    "description": "Account specified is blocked, prohibiting posting of transactions against it",
+    "undefined": "2023-02-08T07:10:58.124Z"
+  },
+  {
+    "code": "AC07",
+    "type": "ISO",
+    "label": "ClosedCreditorAccountNumber",
+    "description": "Creditor account number {{accountId}} closed",
+    "undefined": "2023-02-08T07:10:58.128Z"
+  },
+  {
+    "code": "AC08",
+    "type": "ISO",
+    "label": "InvalidBranchCode",
+    "description": "Branch code is invalid or missing",
+    "undefined": "2023-02-08T07:10:58.152Z"
+  },
+  {
+    "code": "AC09",
+    "type": "ISO",
+    "label": "InvalidAccountCurrency",
+    "description": "Account currency is invalid or missing. Expected currency: {{dfltPaysysCrncy}}",
+    "undefined": "2023-02-08T07:10:58.162Z"
+  },
+  {
+    "code": "AC10",
+    "type": "ISO",
+    "label": "InvalidDebtorAccountCurrency",
+    "description": "Debtor account currency is invalid or missing",
+    "undefined": "2023-02-08T07:10:58.166Z"
+  },
+  {
+    "code": "AC11",
+    "type": "ISO",
+    "label": "InvalidCreditorAccountCurrency",
+    "description": "Creditor account currency is invalid or missing",
+    "undefined": "2023-02-08T07:10:58.170Z"
+  },
+  {
+    "code": "AC12",
+    "type": "ISO",
+    "label": "InvalidAccountType",
+    "description": "Account type missing or invalid.Generic usage if cannot specify between group and payment information levels",
+    "undefined": "2023-02-08T07:10:58.174Z"
+  },
+  {
+    "code": "AC13",
+    "type": "ISO",
+    "label": "InvalidDebtorAccountType",
+    "description": "Debtor account type missing or invalid",
+    "undefined": "2023-02-08T07:10:58.184Z"
+  },
+  {
+    "code": "AC14",
+    "type": "ISO",
+    "label": "InvalidCreditorAccountType",
+    "description": "Creditor account type missing or invalid for: {{accountId}}",
+    "undefined": "2023-02-08T07:10:58.211Z"
+  },
+  {
+    "code": "AC15",
+    "type": "ISO",
+    "label": "AccountDetailsChanged",
+    "description": "The account details for the counterparty have changed",
+    "undefined": "2023-02-08T07:10:58.218Z"
+  },
+  {
+    "code": "AC16",
+    "type": "ISO",
+    "label": "AccountInSequestration",
+    "description": "Account is in sequestration",
+    "undefined": "2023-02-08T07:11:00.231Z"
+  },
+  {
+    "code": "AC17",
+    "type": "ISO",
+    "label": "AccountInLiquidation",
+    "description": "Account is in liquidation",
+    "undefined": "2023-02-08T07:11:00.234Z"
+  },
+  {
+    "code": "ACDN",
+    "type": "NON_ISO",
+    "label": "Miscellaneous - Dormant A/c (No transactions for last six months)",
+    "description": "Miscellaneous - Dormant A/c (No transactions for last six months)",
+    "undefined": "2023-02-08T07:11:01.370Z"
+  },
+  {
+    "code": "ACIN",
+    "type": "NON_ISO",
+    "label": "Miscellaneous - A/c Inactive (No transactions for last three months)",
+    "description": "Miscellaneous - Dormant A/c (No transactions for last six months)",
+    "undefined": "2023-02-08T07:11:01.368Z"
+  },
+  {
+    "code": "AG01",
+    "type": "ISO",
+    "label": "TransactionForbidden",
+    "description": "Transaction forbidden on this type of account (formerly NoAgreement)",
+    "undefined": "2023-02-08T07:10:58.222Z"
+  },
+  {
+    "code": "AG02",
+    "type": "ISO",
+    "label": "InvalidBankOperationCode",
+    "description": "Bank Operation code specified in the message is not valid for receiver",
+    "undefined": "2023-02-08T07:10:58.227Z"
+  },
+  {
+    "code": "AG03",
+    "type": "ISO",
+    "label": "TransactionNotSupported",
+    "description": "Transaction type not supported/authorized on this account",
+    "undefined": "2023-02-08T07:10:58.230Z"
+  },
+  {
+    "code": "AG04",
+    "type": "ISO",
+    "label": "InvalidAgentCountry",
+    "description": "Agent country code is missing or invalid. Generic usage if cannot specify between group and payment information levels",
+    "undefined": "2023-02-08T07:10:58.233Z"
+  },
+  {
+    "code": "AG05",
+    "type": "ISO",
+    "label": "InvalidDebtorAgentCountry",
+    "description": "Debtor agent country code is missing or invalid",
+    "undefined": "2023-02-08T07:10:58.237Z"
+  },
+  {
+    "code": "AG06",
+    "type": "ISO",
+    "label": "InvalidCreditorAgentCountry",
+    "description": "Creditor agent country code is missing or invalid",
+    "undefined": "2023-02-08T07:10:58.262Z"
+  },
+  {
+    "code": "AG07",
+    "type": "ISO",
+    "label": "UnsuccesfulDirectDebit",
+    "description": "Debtor account cannot be debited for a generic reason. Code value may be used in general purposes and as a replacement for AM04 if debtor bank does not reveal its customer's insufficient funds for privacy reasons",
+    "undefined": "2023-02-08T07:10:58.268Z"
+  },
+  {
+    "code": "AG08",
+    "type": "ISO",
+    "label": "InvalidAccessRights",
+    "description": "Transaction failed due to invalid or missing user or access right",
+    "undefined": "2023-02-08T07:10:58.291Z"
+  },
+  {
+    "code": "AG09",
+    "type": "ISO",
+    "label": "PaymentNotReceived",
+    "description": "Original payment never received",
+    "undefined": "2023-02-08T07:10:58.298Z"
+  },
+  {
+    "code": "AG10",
+    "type": "ISO",
+    "label": "AgentSuspended",
+    "description": "Agent of message is suspended from the Real Time Payment system. Generic usage if it cannot be determined who exactly is suspended",
+    "undefined": "2023-02-08T07:10:58.313Z"
+  },
+  {
+    "code": "AG11",
+    "type": "ISO",
+    "label": "CreditorAgentSuspended",
+    "description": "Creditor Agent of message is suspended from the Real Time Payment system",
+    "undefined": "2023-02-08T07:10:58.343Z"
+  },
+  {
+    "code": "AG12",
+    "type": "ISO",
+    "label": "NotAllowedBookTransfer",
+    "description": "Payment orders made by transferring funds from one account to another at the same financial institution (bank or payment institution) are not allowed",
+    "undefined": "2023-02-08T07:10:58.348Z"
+  },
+  {
+    "code": "AG13",
+    "type": "ISO",
+    "label": "ForbiddenReturnPayment",
+    "description": "Returned payments derived from previously returned transactions are not allowed",
+    "undefined": "2023-02-08T07:10:58.376Z"
+  },
+  {
+    "code": "AGNT",
+    "type": "ISO",
+    "label": "IncorrectAgent",
+    "description": "Agent in the payment workflow is incorrect",
+    "undefined": "2023-02-08T07:10:58.407Z"
+  },
+  {
+    "code": "AM01",
+    "type": "ISO",
+    "label": "ZeroAmount",
+    "description": "Specified message amount is equal to zero",
+    "undefined": "2023-02-08T07:10:58.411Z"
+  },
+  {
+    "code": "AM02",
+    "type": "ISO",
+    "label": "NotAllowedAmount",
+    "description": "Specific transaction/message amount is greater than allowed maximum",
+    "undefined": "2023-02-08T07:10:58.416Z"
+  },
+  {
+    "code": "AM03",
+    "type": "ISO",
+    "label": "NotAllowedCurrency",
+    "description": "Specified message amount is an non processable currency outside of existing agreement",
+    "undefined": "2023-02-08T07:10:58.420Z"
+  },
+  {
+    "code": "AM04",
+    "type": "ISO",
+    "label": "InsufficientFunds",
+    "description": "Amount of funds available to cover specified message amount is insufficient",
+    "undefined": "2023-02-08T07:10:58.423Z"
+  },
+  {
+    "code": "AM05",
+    "type": "ISO",
+    "label": "Duplication",
+    "description": "Duplication",
+    "undefined": "2023-02-08T07:10:58.426Z"
+  },
+  {
+    "code": "AM06",
+    "type": "ISO",
+    "label": "TooLowAmount",
+    "description": "Specified transaction amount is less than agreed minimum",
+    "undefined": "2023-02-08T07:10:58.428Z"
+  },
+  {
+    "code": "AM07",
+    "type": "ISO",
+    "label": "BlockedAmount",
+    "description": "Amount of funds available to cover specified message amount is insufficient",
+    "undefined": "2023-02-08T07:10:58.431Z"
+  },
+  {
+    "code": "AM09",
+    "type": "ISO",
+    "label": "WrongAmount",
+    "description": "Amount received is not the amount agreed or expected",
+    "undefined": "2023-02-08T07:10:58.434Z"
+  },
+  {
+    "code": "AM10",
+    "type": "ISO",
+    "label": "InvalidControlSum",
+    "description": "Sum of instructed amounts does not equal the control sum",
+    "undefined": "2023-02-08T07:10:58.468Z"
+  },
+  {
+    "code": "AM11",
+    "type": "ISO",
+    "label": "InvalidTransactionCurrency",
+    "description": "Transaction currency {{instructedAmtCrncy}} is invalid or missing. Expected currency: {{dfltPaysysCrncy}}",
+    "undefined": "2023-02-08T07:10:58.478Z"
+  },
+  {
+    "code": "AM12",
+    "type": "ISO",
+    "label": "InvalidAmount",
+    "description": "Amount is invalid or missing",
+    "undefined": "2023-02-08T07:10:58.486Z"
+  },
+  {
+    "code": "AM13",
+    "type": "ISO",
+    "label": "AmountExceedsClearingSystemLimit",
+    "description": "Transaction amount exceeds limits set by clearing system",
+    "undefined": "2023-02-08T07:10:58.498Z"
+  },
+  {
+    "code": "AM14",
+    "type": "ISO",
+    "label": "AmountExceedsAgreedLimit",
+    "description": "Transaction amount exceeds limits agreed between bank and client",
+    "undefined": "2023-02-08T07:10:58.502Z"
+  },
+  {
+    "code": "AM15",
+    "type": "ISO",
+    "label": "AmountBelowClearingSystemMinimum",
+    "description": "Transaction amount below minimum set by clearing system",
+    "undefined": "2023-02-08T07:10:58.530Z"
+  },
+  {
+    "code": "AM16",
+    "type": "ISO",
+    "label": "InvalidGroupControlSum",
+    "description": "Control Sum at the Group level is invalid",
+    "undefined": "2023-02-08T07:10:58.539Z"
+  },
+  {
+    "code": "AM17",
+    "type": "ISO",
+    "label": "InvalidPaymentInfoControlSum",
+    "description": "Control Sum at the Payment Information level is invalid",
+    "undefined": "2023-02-08T07:10:58.547Z"
+  },
+  {
+    "code": "AM18",
+    "type": "ISO",
+    "label": "InvalidNumberOfTransactions",
+    "description": "Number of transactions is invalid or missing. Generic usage if cannot specify between group and payment information levels",
+    "undefined": "2023-02-08T07:10:58.550Z"
+  },
+  {
+    "code": "AM19",
+    "type": "ISO",
+    "label": "InvalidGroupNumberOfTransactions",
+    "description": "Number of transactions at the Group level is invalid or missing",
+    "undefined": "2023-02-08T07:10:58.564Z"
+  },
+  {
+    "code": "AM20",
+    "type": "ISO",
+    "label": "InvalidPaymentInfoNumberOfTransactions",
+    "description": "Number of transactions at the Payment Information level is invalid",
+    "undefined": "2023-02-08T07:10:58.605Z"
+  },
+  {
+    "code": "AM21",
+    "type": "ISO",
+    "label": "LimitExceeded",
+    "description": "Transaction amount exceeds limits agreed between bank and client",
+    "undefined": "2023-02-08T07:10:58.640Z"
+  },
+  {
+    "code": "AM22",
+    "type": "ISO",
+    "label": "ZeroAmountNotApplied",
+    "description": "Unable to apply zero amount to designated account. For example, where the rules of a service allow the use of zero amount payments, however the back-office system is unable to apply the funds to the account. If the rules of a service prohibit the use of zero amount payments, then code AM01 is used to report the error condition",
+    "undefined": "2023-02-08T07:10:58.667Z"
+  },
+  {
+    "code": "AM23",
+    "type": "ISO",
+    "label": "AmountExceedsSettlementLimit",
+    "description": "Transaction amount exceeds settlement limit",
+    "undefined": "2023-02-08T07:10:58.671Z"
+  },
+  {
+    "code": "ARDT",
+    "type": "ISO",
+    "label": "AlreadyReturnedTransaction",
+    "description": "Already returned original SCT",
+    "undefined": "2023-02-08T07:11:00.242Z"
+  },
+  {
+    "code": "BE01",
+    "type": "ISO",
+    "label": "InconsistenWithEndCustomer",
+    "description": "Identification of end customer is not consistent with associated account number. (formerly CreditorConsistency)",
+    "undefined": "2023-02-08T07:10:58.679Z"
+  },
+  {
+    "code": "BE04",
+    "type": "ISO",
+    "label": "MissingCreditorAddress",
+    "description": "Specification of creditor's address, which is required for payment, is missing/not correct (formerly IncorrectCreditorAddress)",
+    "undefined": "2023-02-08T07:10:58.704Z"
+  },
+  {
+    "code": "BE05",
+    "type": "ISO",
+    "label": "UnrecognisedInitiatingParty",
+    "description": "Party who initiated the message is not recognised by the end customer",
+    "undefined": "2023-02-08T07:10:58.714Z"
+  },
+  {
+    "code": "BE06",
+    "type": "ISO",
+    "label": "UnknownEndCustomer",
+    "description": "End customer specified is not known at associated Sort/National Bank Code or does no longer exist in the books",
+    "undefined": "2023-02-08T07:10:58.723Z"
+  },
+  {
+    "code": "BE07",
+    "type": "ISO",
+    "label": "MissingDebtorAddress",
+    "description": "Specification of debtor's address, which is required for payment, is missing/not correct",
+    "undefined": "2023-02-08T07:10:58.728Z"
+  },
+  {
+    "code": "BE08",
+    "type": "ISO",
+    "label": "MissingDebtorName",
+    "description": "Debtor name is missing",
+    "undefined": "2023-02-08T07:10:58.738Z"
+  },
+  {
+    "code": "BE09",
+    "type": "ISO",
+    "label": "InvalidCountry",
+    "description": "Country code is missing or Invalid. Generic usage if cannot specifically identify debtor or creditor",
+    "undefined": "2023-02-08T07:10:58.749Z"
+  },
+  {
+    "code": "BE10",
+    "type": "ISO",
+    "label": "InvalidDebtorCountry",
+    "description": "Debtor country code is missing or invalid",
+    "undefined": "2023-02-08T07:10:58.759Z"
+  },
+  {
+    "code": "BE11",
+    "type": "ISO",
+    "label": "InvalidCreditorCountry",
+    "description": "Creditor country code is missing or invalid",
+    "undefined": "2023-02-08T07:10:58.792Z"
+  },
+  {
+    "code": "BE12",
+    "type": "ISO",
+    "label": "InvalidCountryOfResidence",
+    "description": "Country code of residence is missing or Invalid. Generic usage if cannot specifically identify debtor or creditor",
+    "undefined": "2023-02-08T07:10:58.797Z"
+  },
+  {
+    "code": "BE13",
+    "type": "ISO",
+    "label": "InvalidDebtorCountryOfResidence",
+    "description": "Country code of debtor's residence is missing or Invalid",
+    "undefined": "2023-02-08T07:10:58.804Z"
+  },
+  {
+    "code": "BE14",
+    "type": "ISO",
+    "label": "InvalidCreditorCountryOfResidence",
+    "description": "Country code of creditor's residence is missing or Invalid",
+    "undefined": "2023-02-08T07:10:58.815Z"
+  },
+  {
+    "code": "BE15",
+    "type": "ISO",
+    "label": "InvalidIdentificationCode",
+    "description": "Identification code missing or invalid. Generic usage if cannot specifically identify debtor or creditor",
+    "undefined": "2023-02-08T07:10:58.819Z"
+  },
+  {
+    "code": "BE16",
+    "type": "ISO",
+    "label": "InvalidDebtorIdentificationCode",
+    "description": "Debtor or Ultimate Debtor identification code missing or invalid",
+    "undefined": "2023-02-08T07:10:58.828Z"
+  },
+  {
+    "code": "BE17",
+    "type": "ISO",
+    "label": "InvalidCreditorIdentificationCode",
+    "description": "Creditor or Ultimate Creditor identification code missing or invalid",
+    "undefined": "2023-02-08T07:10:58.837Z"
+  },
+  {
+    "code": "BE18",
+    "type": "ISO",
+    "label": "InvalidContactDetails",
+    "description": "Contact details missing or invalid",
+    "undefined": "2023-02-08T07:10:58.853Z"
+  },
+  {
+    "code": "BE19",
+    "type": "ISO",
+    "label": "InvalidChargeBearerCode",
+    "description": "Charge bearer code for transaction type is invalid",
+    "undefined": "2023-02-08T07:10:58.864Z"
+  },
+  {
+    "code": "BE20",
+    "type": "ISO",
+    "label": "InvalidNameLength",
+    "description": "Name length exceeds local rules for payment type",
+    "undefined": "2023-02-08T07:10:58.894Z"
+  },
+  {
+    "code": "BE21",
+    "type": "ISO",
+    "label": "MissingName",
+    "description": "Name {{partyName}} missing or invalid",
+    "undefined": "2023-02-08T07:10:58.909Z"
+  },
+  {
+    "code": "BE22",
+    "type": "ISO",
+    "label": "MissingCreditorName",
+    "description": "Creditor name is missing",
+    "undefined": "2023-02-08T07:10:58.914Z"
+  },
+  {
+    "code": "BOOK0004",
+    "type": "NON_ISO",
+    "description": "Entity Details is not defined in the message",
+    "undefined": "2023-02-08T07:11:01.786Z"
+  },
+  {
+    "code": "BOOK0005",
+    "type": "NON_ISO",
+    "description": "PaysysId, Service Id and Service Type is not defined in the message",
+    "undefined": "2023-02-08T07:11:01.784Z"
+  },
+  {
+    "code": "BOOK0009",
+    "type": "NON_ISO",
+    "description": "ReqExecDate Time,{{errString}} is less than the Cut off time derived from rule ",
+    "undefined": "2023-02-08T07:11:01.788Z"
+  },
+  {
+    "code": "BOOK0011",
+    "type": "NON_ISO",
+    "description": "CalendarId  {{errString}} not configured for holidaycheck and nextWorking day check ",
+    "undefined": "2023-02-08T07:11:01.798Z"
+  },
+  {
+    "code": "BOOK0012",
+    "type": "NON_ISO",
+    "label": "RatecodeNotPresent",
+    "description": "Ratecode not present",
+    "undefined": "2023-02-08T07:11:01.866Z"
+  },
+  {
+    "code": "BOOK0013",
+    "type": "NON_ISO",
+    "label": "UnableToGetAmount",
+    "description": "Unable to get amount",
+    "undefined": "2023-02-08T07:11:01.869Z"
+  },
+  {
+    "code": "BOOK0014",
+    "type": "NON_ISO",
+    "label": "HighAmtLimitFail",
+    "description": "High amount limit fail, Amount present should be less the limit amount",
+    "undefined": "2023-02-08T07:11:01.873Z"
+  },
+  {
+    "code": "BOOK0015",
+    "type": "NON_ISO",
+    "label": "LowAmtLimitFail",
+    "description": "Low amount limit fail, Amount present should be greater the limit amount",
+    "undefined": "2023-02-08T07:11:01.875Z"
+  },
+  {
+    "code": "BOOK0016",
+    "type": "NON_ISO",
+    "label": "Mandatory Fields absent",
+    "description": "PaysysId, Serviceid, ServiceType, InstructedAmountCurrenc and InstructedAmount are mandatory fields",
+    "undefined": "2023-02-08T07:11:01.893Z"
+  },
+  {
+    "code": "BREAKSTP1",
+    "type": "NON_ISO",
+    "description": "{{errString}} STP -1  validation Failed ",
+    "undefined": "2023-02-08T07:11:01.333Z"
+  },
+  {
+    "code": "BREAKSTP2",
+    "type": "NON_ISO",
+    "description": "{{errString}} STP -2  validation Failed ",
+    "undefined": "2023-02-08T07:11:01.357Z"
+  },
+  {
+    "code": "BREAKSTP3",
+    "type": "NON_ISO",
+    "description": "{{errString}} STP -3  validation Failed ",
+    "undefined": "2023-02-08T07:11:01.359Z"
+  },
+  {
+    "code": "CERI",
+    "type": "ISO",
+    "label": "CheckERI",
+    "description": "Credit transfer is not tagged as an Extended Remittance Information (ERI) transaction but contains ERI",
+    "undefined": "2023-02-08T07:10:58.926Z"
+  },
+  {
+    "code": "CH03",
+    "type": "ISO",
+    "label": "RequestedExecutionDateOrRequestedCollectionDateTooFarInFuture",
+    "description": "Value in Requested Execution Date or Requested Collection Date is too far in the future",
+    "undefined": "2023-02-08T07:10:58.932Z"
+  },
+  {
+    "code": "CH04",
+    "type": "ISO",
+    "label": "RequestedExecutionDateOrRequestedCollectionDateTooFarInPast",
+    "description": "Value in Requested Execution Date or Requested Collection Date is too far in the past",
+    "undefined": "2023-02-08T07:10:58.936Z"
+  },
+  {
+    "code": "CH07",
+    "type": "ISO",
+    "label": "ElementIsNotToBeUsedAtB-andC-Level",
+    "description": "Element is not to be used at B- and C-Level",
+    "undefined": "2023-02-08T07:10:58.944Z"
+  },
+  {
+    "code": "CH09",
+    "type": "ISO",
+    "label": "MandateChangesNotAllowed",
+    "description": "Mandate changes are not allowed",
+    "undefined": "2023-02-08T07:10:58.948Z"
+  },
+  {
+    "code": "CH10",
+    "type": "ISO",
+    "label": "InformationOnMandateChangesMissing",
+    "description": "Information on mandate changes are missing",
+    "undefined": "2023-02-08T07:10:58.952Z"
+  },
+  {
+    "code": "CH11",
+    "type": "ISO",
+    "label": "CreditorIdentifierIncorrect",
+    "description": "Value in Creditor Identifier is incorrect",
+    "undefined": "2023-02-08T07:10:58.959Z"
+  },
+  {
+    "code": "CH12",
+    "type": "ISO",
+    "label": "CreditorIdentifierNotUnambiguouslyAtTransaction-Level",
+    "description": "Creditor Identifier is ambiguous at Transaction Level",
+    "undefined": "2023-02-08T07:10:58.972Z"
+  },
+  {
+    "code": "CH13",
+    "type": "ISO",
+    "label": "OriginalDebtorAccountIsNotToBeUsed",
+    "description": "Original Debtor Account is not to be used",
+    "undefined": "2023-02-08T07:10:59.002Z"
+  },
+  {
+    "code": "CH14",
+    "type": "ISO",
+    "label": "OriginalDebtorAgentIsNotToBeUsed",
+    "description": "Original Debtor Agent  is not to be used",
+    "undefined": "2023-02-08T07:10:59.005Z"
+  },
+  {
+    "code": "CH15",
+    "type": "ISO",
+    "label": "ElementContentIncludesMoreThan140CharacÂ­ters",
+    "description": "Content Remittance Information/Structured includes more than 140 characters",
+    "undefined": "2023-02-08T07:10:59.007Z"
+  },
+  {
+    "code": "CH16",
+    "type": "ISO",
+    "label": "ElementContentFormallyIncorrect",
+    "description": "Content is incorrect",
+    "undefined": "2023-02-08T07:10:59.019Z"
+  },
+  {
+    "code": "CH17",
+    "type": "ISO",
+    "label": "ElementNotAdmitted",
+    "description": "Element is not allowed",
+    "undefined": "2023-02-08T07:10:59.027Z"
+  },
+  {
+    "code": "CH19",
+    "type": "ISO",
+    "label": "ValuesWillBeSetToNextTARGETday",
+    "description": "Values in Interbank Settlement Date or Requested Collection Date will be set to the next TARGET day",
+    "undefined": "2023-02-08T07:10:59.034Z"
+  },
+  {
+    "code": "CH20",
+    "type": "ISO",
+    "label": "DecimalPointsNotCompatibleWithCurrency",
+    "description": "Number of decimal points not compatible with the currency",
+    "undefined": "2023-02-08T07:10:59.037Z"
+  },
+  {
+    "code": "CH21",
+    "type": "ISO",
+    "label": "RequiredCompulsoryElementMissing",
+    "description": "Validation failed for [{{fldName}}]: {{errStr}}",
+    "undefined": "2023-02-08T07:10:59.044Z"
+  },
+  {
+    "code": "CH22",
+    "type": "ISO",
+    "label": "COREandB2BwithinOnemessage",
+    "description": "SDD CORE and B2B not permitted within one message",
+    "undefined": "2023-02-08T07:10:59.053Z"
+  },
+  {
+    "code": "CMNPYS00001",
+    "type": "NON_ISO",
+    "description": "CalendarId {{errString}} is not configured for Holiday check and next working day check",
+    "undefined": "2023-02-08T07:11:01.951Z"
+  },
+  {
+    "code": "CMNPYS00002",
+    "type": "NON_ISO",
+    "description": "Cutoff time has been breached for the paysys: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.953Z"
+  },
+  {
+    "code": "CMNPYS00003",
+    "type": "NON_ISO",
+    "description": "Call to Scheme configuration server failed: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.956Z"
+  },
+  {
+    "code": "CMNPYS00004",
+    "type": "NON_ISO",
+    "description": "PaysysId, Service Id and Service Type is not defined in the message",
+    "undefined": "2023-02-08T07:11:01.958Z"
+  },
+  {
+    "code": "CMNPYS00005",
+    "type": "NON_ISO",
+    "description": "Could not derive ISO mapper for the given identifiers",
+    "undefined": "2023-02-08T07:11:01.960Z"
+  },
+  {
+    "code": "CMNPYS00006",
+    "type": "NON_ISO",
+    "description": "Could not map API data to ISO format",
+    "undefined": "2023-02-08T07:11:01.963Z"
+  },
+  {
+    "code": "CMNPYS00007",
+    "type": "NON_ISO",
+    "description": "Unhandled error durring API to ISO conversion",
+    "undefined": "2023-02-08T07:11:01.965Z"
+  },
+  {
+    "code": "CMNPYS00008",
+    "type": "NON_ISO",
+    "description": "Unhandled error during mapper derivation",
+    "undefined": "2023-02-08T07:11:01.967Z"
+  },
+  {
+    "code": "CMNPYS00009",
+    "type": "NON_ISO",
+    "description": "ISO data is missing for the request Id {{reqId}}",
+    "undefined": "2023-02-08T07:11:01.969Z"
+  },
+  {
+    "code": "CMNPYS00010",
+    "type": "NON_ISO",
+    "description": "Paysys rule setup is invalid",
+    "undefined": "2023-02-08T07:11:01.972Z"
+  },
+  {
+    "code": "CMNPYS00011",
+    "type": "NON_ISO",
+    "description": "The service was not able to derive paysysId from rules or setup",
+    "undefined": "2023-02-08T07:11:02.299Z"
+  },
+  {
+    "code": "CMNPYS00012",
+    "type": "NON_ISO",
+    "description": "Holiday or Cutoff rule has failed for all the given Paysys Ids. Hence, request is assigned with the first Paysys Id in the list",
+    "undefined": "2023-02-08T07:11:01.979Z"
+  },
+  {
+    "code": "CMNPYS00013",
+    "type": "NON_ISO",
+    "description": "Unable to derive Holiday rule",
+    "undefined": "2023-02-08T07:11:01.981Z"
+  },
+  {
+    "code": "CMNPYS00014",
+    "type": "NON_ISO",
+    "description": "Holiday rule setup is invalid",
+    "undefined": "2023-02-08T07:11:01.984Z"
+  },
+  {
+    "code": "CMNPYS00015",
+    "type": "NON_ISO",
+    "description": "Unhandled error during Holiday rule check",
+    "undefined": "2023-02-08T07:11:01.988Z"
+  },
+  {
+    "code": "CMNPYS00016",
+    "type": "NON_ISO",
+    "description": "Requested execution date time [{{reqTime}}] is less than the Cut off time [{{ruleTime}}] derived from rule",
+    "undefined": "2023-02-08T07:11:01.991Z"
+  },
+  {
+    "code": "CMNPYS00017",
+    "type": "NON_ISO",
+    "description": "Requested execution date time [{{reqTime}}] is greater than the Cut off time [{{ruleTime}}] derived from rule",
+    "undefined": "2023-02-08T07:11:01.998Z"
+  },
+  {
+    "code": "CMNPYS00018",
+    "type": "NON_ISO",
+    "description": "Unable to derive Cut off rule",
+    "undefined": "2023-02-08T07:11:02.003Z"
+  },
+  {
+    "code": "CMNPYS00019",
+    "type": "NON_ISO",
+    "description": "Failed to create Common Payment Order with request Id {{reqId}}",
+    "undefined": "2023-02-08T07:11:02.010Z"
+  },
+  {
+    "code": "CMNPYS00020",
+    "type": "NON_ISO",
+    "description": "Failed to update Common Payment Order with request Id {{reqId}}",
+    "undefined": "2023-02-08T07:11:02.012Z"
+  },
+  {
+    "code": "CMNPYS00021",
+    "type": "NON_ISO",
+    "description": "Common Payment Order with request Id {{reqId}} does not exist",
+    "undefined": "2023-02-08T07:11:02.014Z"
+  },
+  {
+    "code": "CMNPYS00022",
+    "type": "NON_ISO",
+    "description": "Outbound Payment Order with request Id {{reqId}} is not updated with new paysys Id after suspense",
+    "undefined": "2023-02-08T07:11:02.020Z"
+  },
+  {
+    "code": "CMNPYS00023",
+    "type": "NON_ISO",
+    "description": "The service was not able to derive paysysId from pymtSchmParam",
+    "undefined": "2023-02-08T07:11:02.028Z"
+  },
+  {
+    "code": "CMNPYS00024",
+    "type": "NON_ISO",
+    "description": "PaysysId is mandatory when requestedExecutionDate or drAcct is entered.",
+    "undefined": "2023-02-08T07:11:02.310Z"
+  },
+  {
+    "code": "CMNPYS00025",
+    "type": "NON_ISO",
+    "description": "Enter either poIdList, fileId, requestedExecutionDate or drAcct.",
+    "undefined": "2023-02-08T07:11:02.311Z"
+  },
+  {
+    "code": "CMNPYS00026",
+    "type": "NON_ISO",
+    "description": "Enter the requestedExecutionDate when drAcct is entered.",
+    "undefined": "2023-02-08T07:11:02.313Z"
+  },
+  {
+    "code": "CMNPYS00027",
+    "type": "NON_ISO",
+    "description": "Enter the fileId when batchId is entered.",
+    "undefined": "2023-02-08T07:11:02.315Z"
+  },
+  {
+    "code": "CN01",
+    "type": "ISO",
+    "label": "AuthorisationCancelled",
+    "description": "Authorisation is cancelled",
+    "undefined": "2023-02-08T07:11:00.247Z"
+  },
+  {
+    "code": "CNOR",
+    "type": "ISO",
+    "label": "CreditorBankIsNotRegistered",
+    "description": "Creditor bank is not registered under this BIC in the CSM",
+    "undefined": "2023-02-08T07:10:59.061Z"
+  },
+  {
+    "code": "CR01",
+    "type": "ISO",
+    "label": "DormantCreditorAccount",
+    "description": "Creditor account number [{{accountId}}] status is Dormant. ",
+    "undefined": "2023-02-08T07:11:01.755Z"
+  },
+  {
+    "code": "CURR",
+    "type": "ISO",
+    "label": "IncorrectCurrency",
+    "description": "Currency of the payment is incorrect",
+    "undefined": "2023-02-08T07:10:59.069Z"
+  },
+  {
+    "code": "CUST",
+    "type": "ISO",
+    "label": "RequestedByCustomer",
+    "description": "Cancellation requested by the Debtor",
+    "undefined": "2023-02-08T07:10:59.097Z"
+  },
+  {
+    "code": "DNOR",
+    "type": "ISO",
+    "label": "DebtorBankIsNotRegistered",
+    "description": "Debtor bank is not registered under this BIC in the CSM",
+    "undefined": "2023-02-08T07:10:59.106Z"
+  },
+  {
+    "code": "DR01",
+    "type": "ISO",
+    "label": "DormantDebtorAccount",
+    "description": "Debtor account number [{{accountId}}] status is Dormant. ",
+    "undefined": "2023-02-08T07:11:01.384Z"
+  },
+  {
+    "code": "DS01",
+    "type": "ISO",
+    "label": "ElectronicSignaturesCorrect",
+    "description": "The electronic signature(s) is/are correct",
+    "undefined": "2023-02-08T07:10:59.110Z"
+  },
+  {
+    "code": "DS02",
+    "type": "ISO",
+    "label": "OrderCancelled",
+    "description": "An authorized user has cancelled the order",
+    "undefined": "2023-02-08T07:10:59.113Z"
+  },
+  {
+    "code": "DS03",
+    "type": "ISO",
+    "label": "OrderNotCancelled",
+    "description": "The userâ€™s attempt to cancel the order was not successful",
+    "undefined": "2023-02-08T07:10:59.117Z"
+  },
+  {
+    "code": "DS04",
+    "type": "ISO",
+    "label": "OrderRejected",
+    "description": "The order was rejected by the bank side (for reasons concerning content)",
+    "undefined": "2023-02-08T07:10:59.120Z"
+  },
+  {
+    "code": "DS05",
+    "type": "ISO",
+    "label": "OrderForwardedForPostprocessing",
+    "description": "The order was correct and could be forwarded for postprocessing",
+    "undefined": "2023-02-08T07:10:59.123Z"
+  },
+  {
+    "code": "DS06",
+    "type": "ISO",
+    "label": "TransferOrder",
+    "description": "The order was transferred to VEU",
+    "undefined": "2023-02-08T07:10:59.127Z"
+  },
+  {
+    "code": "DS07",
+    "type": "ISO",
+    "label": "ProcessingOK",
+    "description": "All actions concerning the order could be done by the EBICS bank server",
+    "undefined": "2023-02-08T07:10:59.131Z"
+  },
+  {
+    "code": "DS08",
+    "type": "ISO",
+    "label": "DecompressionError",
+    "description": "The decompression of the file was not successful",
+    "undefined": "2023-02-08T07:10:59.138Z"
+  },
+  {
+    "code": "DS09",
+    "type": "ISO",
+    "label": "DecryptionError",
+    "description": "The decryption of the file was not successful",
+    "undefined": "2023-02-08T07:10:59.152Z"
+  },
+  {
+    "code": "DS0A",
+    "type": "ISO",
+    "label": "DataSignRequested",
+    "description": "Data signature is required",
+    "undefined": "2023-02-08T07:10:59.178Z"
+  },
+  {
+    "code": "DS0B",
+    "type": "ISO",
+    "label": "UnknownDataSignFormat",
+    "description": "Data signature for the format is not available or invalid",
+    "undefined": "2023-02-08T07:10:59.185Z"
+  },
+  {
+    "code": "DS0C",
+    "type": "ISO",
+    "label": "SignerCertificateRevoked",
+    "description": "The signer certificate is revoked",
+    "undefined": "2023-02-08T07:10:59.188Z"
+  },
+  {
+    "code": "DS0D",
+    "type": "ISO",
+    "label": "SignerCertificateNotValid",
+    "description": "The signer certificate is not valid (revoked or not active)",
+    "undefined": "2023-02-08T07:10:59.192Z"
+  },
+  {
+    "code": "DS0E",
+    "type": "ISO",
+    "label": "IncorrectSignerCertificate",
+    "description": "The signer certificate is not present",
+    "undefined": "2023-02-08T07:10:59.195Z"
+  },
+  {
+    "code": "DS0F",
+    "type": "ISO",
+    "label": "SignerCertificationAuthoritySignerNotValid",
+    "description": "The authority of the signer certification sending the certificate is unknown",
+    "undefined": "2023-02-08T07:10:59.198Z"
+  },
+  {
+    "code": "DS0G",
+    "type": "ISO",
+    "label": "NotAllowedPayment",
+    "description": "Signer is not allowed to sign this operation type",
+    "undefined": "2023-02-08T07:10:59.203Z"
+  },
+  {
+    "code": "DS0H",
+    "type": "ISO",
+    "label": "NotAllowedAccount",
+    "description": "Signer is not allowed to sign for this account",
+    "undefined": "2023-02-08T07:10:59.209Z"
+  },
+  {
+    "code": "DS0K",
+    "type": "ISO",
+    "label": "NotAllowedNumberOfTransaction",
+    "description": "The number of transaction is over the number allowed for this signer",
+    "undefined": "2023-02-08T07:10:59.212Z"
+  },
+  {
+    "code": "DS10",
+    "type": "ISO",
+    "label": "Signer1CertificateRevoked",
+    "description": "The certificate is revoked for the first signer",
+    "undefined": "2023-02-08T07:10:59.242Z"
+  },
+  {
+    "code": "DS11",
+    "type": "ISO",
+    "label": "Signer1CertificateNotValid",
+    "description": "The certificate is not valid (revoked or not active) for the first signer",
+    "undefined": "2023-02-08T07:10:59.249Z"
+  },
+  {
+    "code": "DS12",
+    "type": "ISO",
+    "label": "IncorrectSigner1Certificate",
+    "description": "The certificate is not present for the first signer",
+    "undefined": "2023-02-08T07:10:59.253Z"
+  },
+  {
+    "code": "DS13",
+    "type": "ISO",
+    "label": "SignerCertificationAuthoritySigner1NotValid",
+    "description": "The authority of signer certification sending the certificate is unknown for the first signer",
+    "undefined": "2023-02-08T07:10:59.259Z"
+  },
+  {
+    "code": "DS14",
+    "type": "ISO",
+    "label": "UserDoesNotExist",
+    "description": "The user is unknown on the server",
+    "undefined": "2023-02-08T07:10:59.264Z"
+  },
+  {
+    "code": "DS15",
+    "type": "ISO",
+    "label": "IdenticalSignatureFound",
+    "description": "The same signature has already been sent to the bank",
+    "undefined": "2023-02-08T07:10:59.269Z"
+  },
+  {
+    "code": "DS16",
+    "type": "ISO",
+    "label": "PublicKeyVersionIncorrect",
+    "description": "The public key version is not correct. This code is returned when a customer sends signature files to the financial institution after conversion from an older program version (old ES format) to a new program version (new ES format) without having carried out re-initialisation with regard to a public key change",
+    "undefined": "2023-02-08T07:10:59.275Z"
+  },
+  {
+    "code": "DS17",
+    "type": "ISO",
+    "label": "DifferentOrderDataInSignatures",
+    "description": "Order data and signatures donâ€™t match",
+    "undefined": "2023-02-08T07:10:59.280Z"
+  },
+  {
+    "code": "DS18",
+    "type": "ISO",
+    "label": "RepeatOrder",
+    "description": "File cannot be tested, the complete order has to be repeated. This code is returned in the event of a malfunction during the signature check, e.g. not enough storage space",
+    "undefined": "2023-02-08T07:10:59.284Z"
+  },
+  {
+    "code": "DS19",
+    "type": "ISO",
+    "label": "ElectronicSignatureRightsInsufficient",
+    "description": "The userâ€™s rights (concerning his signature) are insufficient to execute the order",
+    "undefined": "2023-02-08T07:10:59.291Z"
+  },
+  {
+    "code": "DS20",
+    "type": "ISO",
+    "label": "Signer2CertificateRevoked",
+    "description": "The certificate is revoked for the second signer",
+    "undefined": "2023-02-08T07:10:59.318Z"
+  },
+  {
+    "code": "DS21",
+    "type": "ISO",
+    "label": "Signer2CertificateNotValid",
+    "description": "The certificate is not valid (revoked or not active) for the second signer",
+    "undefined": "2023-02-08T07:10:59.324Z"
+  },
+  {
+    "code": "DS22",
+    "type": "ISO",
+    "label": "IncorrectSigner2Certificate",
+    "description": "The certificate is not present for the second signer",
+    "undefined": "2023-02-08T07:10:59.328Z"
+  },
+  {
+    "code": "DS23",
+    "type": "ISO",
+    "label": "SignerCertificationAuthoritySigner2NotValid",
+    "description": "The authority of signer certification sending the certificate is unknown for the second signer",
+    "undefined": "2023-02-08T07:10:59.331Z"
+  },
+  {
+    "code": "DS24",
+    "type": "ISO",
+    "label": "WaitingTimeExpired",
+    "description": "Waiting time expired due to incomplete order",
+    "undefined": "2023-02-08T07:10:59.336Z"
+  },
+  {
+    "code": "DS25",
+    "type": "ISO",
+    "label": "OrderFileDeleted",
+    "description": "The order file was deleted by the bank server (for multiple reasons)",
+    "undefined": "2023-02-08T07:10:59.343Z"
+  },
+  {
+    "code": "DS26",
+    "type": "ISO",
+    "label": "UserSignedMultipleTimes",
+    "description": "The same user has signed multiple times",
+    "undefined": "2023-02-08T07:10:59.346Z"
+  },
+  {
+    "code": "DS27",
+    "type": "ISO",
+    "label": "UserNotYetActivated",
+    "description": "The user is not yet activated (technically)",
+    "undefined": "2023-02-08T07:10:59.349Z"
+  },
+  {
+    "code": "DS28",
+    "type": "ISO",
+    "label": "ReturnForTechnicalReason",
+    "description": "Return following technical problems resulting in erroneous transaction",
+    "undefined": "2023-02-08T07:11:00.253Z"
+  },
+  {
+    "code": "DT01",
+    "type": "ISO",
+    "label": "InvalidDate",
+    "description": "Invalid date: {{details}}",
+    "undefined": "2023-02-08T07:10:59.352Z"
+  },
+  {
+    "code": "DT02",
+    "type": "ISO",
+    "label": "InvalidCreationDate",
+    "description": "Invalid creation date and time in Group Header (eg, historic date)",
+    "undefined": "2023-02-08T07:10:59.356Z"
+  },
+  {
+    "code": "DT03",
+    "type": "ISO",
+    "label": "InvalidNonProcessingDate",
+    "description": "Invalid non bank processing date (eg, weekend or local public holiday)",
+    "undefined": "2023-02-08T07:10:59.361Z"
+  },
+  {
+    "code": "DT04",
+    "type": "ISO",
+    "label": "FutureDateNotSupported",
+    "description": "Future date not supported",
+    "undefined": "2023-02-08T07:10:59.366Z"
+  },
+  {
+    "code": "DT05",
+    "type": "ISO",
+    "label": "InvalidCutOffDate",
+    "description": "Associated message, payment information block or transaction was received after agreed processing cut-off date, i.e., date in the past",
+    "undefined": "2023-02-08T07:10:59.387Z"
+  },
+  {
+    "code": "DT06",
+    "type": "ISO",
+    "label": "ExecutionDateChanged",
+    "description": "Execution Date has been modified in order for transaction to be processed",
+    "undefined": "2023-02-08T07:10:59.392Z"
+  },
+  {
+    "code": "DU01",
+    "type": "ISO",
+    "label": "DuplicateMessageID",
+    "description": "Message Identification is not unique",
+    "undefined": "2023-02-08T07:10:59.399Z"
+  },
+  {
+    "code": "DU02",
+    "type": "ISO",
+    "label": "DuplicatePaymentInformationID",
+    "description": "Payment Information Block is not unique",
+    "undefined": "2023-02-08T07:10:59.401Z"
+  },
+  {
+    "code": "DU03",
+    "type": "ISO",
+    "label": "DuplicateTransaction",
+    "description": "Transaction is not unique",
+    "undefined": "2023-02-08T07:10:59.405Z"
+  },
+  {
+    "code": "DU04",
+    "type": "ISO",
+    "label": "DuplicateEndToEndID",
+    "description": "End To End ID is not unique",
+    "undefined": "2023-02-08T07:10:59.418Z"
+  },
+  {
+    "code": "DU05",
+    "type": "ISO",
+    "label": "DuplicateInstructionID",
+    "description": "Instruction ID is not unique",
+    "undefined": "2023-02-08T07:10:59.421Z"
+  },
+  {
+    "code": "DUPL",
+    "type": "ISO",
+    "label": "DuplicatePayment",
+    "description": "Payment is a duplicate of another payment: {{details}}",
+    "undefined": "2023-02-08T07:10:59.446Z"
+  },
+  {
+    "code": "ED01",
+    "type": "ISO",
+    "label": "CorrespondentBankNotPossible",
+    "description": "Correspondent bank not possible",
+    "undefined": "2023-02-08T07:10:59.455Z"
+  },
+  {
+    "code": "ED03",
+    "type": "ISO",
+    "label": "BalanceInfoRequest",
+    "description": "Balance of payments complementary info is requested",
+    "undefined": "2023-02-08T07:10:59.462Z"
+  },
+  {
+    "code": "ED05",
+    "type": "ISO",
+    "label": "SettlementFailed",
+    "description": "Settlement of the transaction has failed",
+    "undefined": "2023-02-08T07:10:59.467Z"
+  },
+  {
+    "code": "ED06",
+    "type": "ISO",
+    "label": "SettlementSystemNotAvailable",
+    "description": "Interbank settlement system not available",
+    "undefined": "2023-02-08T07:10:59.473Z"
+  },
+  {
+    "code": "EMVL",
+    "type": "ISO",
+    "label": "EMVLiabilityShift",
+    "description": "The card payment is fraudulent and was not processed with EMV technology for an EMV card",
+    "undefined": "2023-02-08T07:11:00.270Z"
+  },
+  {
+    "code": "ERIN",
+    "type": "ISO",
+    "label": "ERIOptionNotSupported",
+    "description": "Extended Remittance Information (ERI) option is not supported",
+    "undefined": "2023-02-08T07:10:59.477Z"
+  },
+  {
+    "code": "FF01",
+    "type": "ISO",
+    "label": "InvalidFileFormat",
+    "description": "File Format incomplete or invalid",
+    "undefined": "2023-02-08T07:10:59.485Z"
+  },
+  {
+    "code": "FF02",
+    "type": "ISO",
+    "label": "SyntaxError",
+    "description": "Syntax error reason is provided as narrative information in the additional reason information",
+    "undefined": "2023-02-08T07:10:59.493Z"
+  },
+  {
+    "code": "FF03",
+    "type": "ISO",
+    "label": "InvalidPaymentTypeInformation",
+    "description": "Payment Type Information is missing or invalid. Generic usage if cannot specify Service Level or Local Instrument code",
+    "undefined": "2023-02-08T07:10:59.498Z"
+  },
+  {
+    "code": "FF04",
+    "type": "ISO",
+    "label": "InvalidServiceLevelCode",
+    "description": "Service Level code is missing or invalid",
+    "undefined": "2023-02-08T07:10:59.530Z"
+  },
+  {
+    "code": "FF05",
+    "type": "ISO",
+    "label": "InvalidLocalInstrumentCode",
+    "description": "Local Instrument code is missing or invalid",
+    "undefined": "2023-02-08T07:10:59.537Z"
+  },
+  {
+    "code": "FF06",
+    "type": "ISO",
+    "label": "InvalidCategoryPurposeCode",
+    "description": "Category Purpose code is missing or invalid",
+    "undefined": "2023-02-08T07:10:59.547Z"
+  },
+  {
+    "code": "FF07",
+    "type": "ISO",
+    "label": "InvalidPurpose",
+    "description": "Purpose is missing or invalid",
+    "undefined": "2023-02-08T07:10:59.552Z"
+  },
+  {
+    "code": "FF08",
+    "type": "ISO",
+    "label": "InvalidEndToEndId",
+    "description": "End to End Id missing or invalid",
+    "undefined": "2023-02-08T07:10:59.559Z"
+  },
+  {
+    "code": "FF09",
+    "type": "ISO",
+    "label": "InvalidChequeNumber",
+    "description": "Cheque number missing or invalid",
+    "undefined": "2023-02-08T07:10:59.571Z"
+  },
+  {
+    "code": "FF10",
+    "type": "ISO",
+    "label": "BankSystemProcessingError",
+    "description": "File or transaction cannot be processed due to technical issues at the bank side",
+    "undefined": "2023-02-08T07:10:59.580Z"
+  },
+  {
+    "code": "FF11",
+    "type": "ISO",
+    "label": "ClearingRequestAborted",
+    "description": "Clearing request rejected due it being subject to an abort operation",
+    "undefined": "2023-02-08T07:10:59.595Z"
+  },
+  {
+    "code": "FOCR",
+    "type": "ISO",
+    "label": "FollowingCancellationRequest",
+    "description": "Return following a cancellation request",
+    "undefined": "2023-02-08T07:11:00.274Z"
+  },
+  {
+    "code": "FR01",
+    "type": "ISO",
+    "label": "Fraud",
+    "description": "Returned as a result of fraud",
+    "undefined": "2023-02-08T07:11:00.289Z"
+  },
+  {
+    "code": "FRTR",
+    "type": "ISO",
+    "label": "FinalResponseMandateCancelled",
+    "description": "Final response/tracking is recalled as mandate is cancelled",
+    "undefined": "2023-02-08T07:11:00.317Z"
+  },
+  {
+    "code": "FZ01",
+    "type": "ISO",
+    "label": "DebitFreezeDebtorAccount",
+    "description": "Debtor account number [{{accountId}}] is debit frozen.  ",
+    "undefined": "2023-02-08T07:11:01.373Z"
+  },
+  {
+    "code": "FZ02",
+    "type": "ISO",
+    "label": "CreditFreezeCreditorAccount",
+    "description": "Creditor account number [{{accountId}}] is credit frozen. ",
+    "undefined": "2023-02-08T07:11:01.386Z"
+  },
+  {
+    "code": "FZ03",
+    "type": "ISO",
+    "label": "TotalFreezeDebtorAccount",
+    "description": "Debtor account number [{{accountId}}] is debit and credit frozen. ",
+    "undefined": "2023-02-08T07:11:01.378Z"
+  },
+  {
+    "code": "G000",
+    "type": "ISO",
+    "label": "PaymentTransferredAndTracked",
+    "description": "The Status Originator transferred the payment to the next Agent or to a Market Infrastructure. The payment transfer is tracked. No further updates will follow from the Status Originator.",
+    "undefined": "2023-02-08T07:10:59.603Z"
+  },
+  {
+    "code": "G001",
+    "type": "ISO",
+    "label": "PaymentTransferredAndNotTracked",
+    "description": "The Status Originator transferred the payment to the next Agent or to a Market Infrastructure. The payment transfer is not tracked. No further updates will follow from the Status Originator.",
+    "undefined": "2023-02-08T07:10:59.612Z"
+  },
+  {
+    "code": "G002",
+    "type": "ISO",
+    "label": "CreditDebitNotConfirmed",
+    "description": "Credit to the creditorâ€™s account or nostro account may not be confirmed same day or Financial Institution Credit Transfer may not be transferred same day. Update will follow from the Status Originator",
+    "undefined": "2023-02-08T07:10:59.667Z"
+  },
+  {
+    "code": "G003",
+    "type": "ISO",
+    "label": "CreditPendingDocuments",
+    "description": "Credit to creditorâ€™s account is pending receipt of required documents. The Status Originator has requested creditor or a previous Agent to provide additional documentation. Update will follow from the Status Originator.",
+    "undefined": "2023-02-08T07:10:59.672Z"
+  },
+  {
+    "code": "G004",
+    "type": "ISO",
+    "label": "CreditPendingFunds",
+    "description": "In a FIToFI Customer Credit Transfer: Credit to the creditorâ€™s account is pending, status Originator is waiting for funds provided via a cover. Update will follow from the Status Originator",
+    "undefined": "2023-02-08T07:10:59.683Z"
+  },
+  {
+    "code": "G005",
+    "type": "ISO",
+    "label": "DeliveredWithServiceLevel",
+    "description": "Payment has been delivered to creditor agent with service level",
+    "undefined": "2023-02-08T07:10:59.687Z"
+  },
+  {
+    "code": "G006",
+    "type": "ISO",
+    "label": "DeliveredWIthoutServiceLevel",
+    "description": "Payment has been delivered to creditor agent without service level",
+    "undefined": "2023-02-08T07:10:59.714Z"
+  },
+  {
+    "code": "HKFPS0001",
+    "type": "NON_ISO",
+    "description": "{{errString}} Participant Code's currency {{curr}} is not active",
+    "undefined": "2023-02-08T07:11:01.127Z"
+  },
+  {
+    "code": "HKFPS0002",
+    "type": "NON_ISO",
+    "description": "{{errString}} Participant Code's Type {{pysys}} Payment Service is not configured to outbound",
+    "undefined": "2023-02-08T07:11:01.135Z"
+  },
+  {
+    "code": "HKFPS0003",
+    "type": "NON_ISO",
+    "description": "{{errString}} Participant Code's Default receipt mode is B, so payment system {{paysysId}} is not allowed for outbound service",
+    "undefined": "2023-02-08T07:11:01.139Z"
+  },
+  {
+    "code": "HKFPS0004",
+    "type": "NON_ISO",
+    "description": "Entity Details is not defined in the message",
+    "undefined": "2023-02-08T07:11:01.142Z"
+  },
+  {
+    "code": "HKFPS0005",
+    "type": "NON_ISO",
+    "description": "PaysysId, Service Id and Service Type is not defined in the message",
+    "undefined": "2023-02-08T07:11:01.146Z"
+  },
+  {
+    "code": "HKFPS0006",
+    "type": "NON_ISO",
+    "description": "{{errString}} Participant Code is invalid",
+    "undefined": "2023-02-08T07:11:01.149Z"
+  },
+  {
+    "code": "HKFPS0007",
+    "type": "NON_ISO",
+    "description": "{{errString}} Participant Code is not configured in Network Directory",
+    "undefined": "2023-02-08T07:11:01.329Z"
+  },
+  {
+    "code": "HKFPS0008",
+    "type": "NON_ISO",
+    "description": "{{errString}} Participant Code's Type {{pysys}} Payment Service is not configured to inbound",
+    "undefined": "2023-02-08T07:11:01.331Z"
+  },
+  {
+    "code": "HKFPS0009",
+    "type": "NON_ISO",
+    "description": "ReqExecDate Time,{{errString}} is less than the Cut off time derived from rule ",
+    "undefined": "2023-02-08T07:11:01.361Z"
+  },
+  {
+    "code": "HKFPS0010",
+    "type": "NON_ISO",
+    "description": "Alias Resolution Timout has happened, No response ",
+    "undefined": "2023-02-08T07:11:01.363Z"
+  },
+  {
+    "code": "HKFPS0011",
+    "type": "NON_ISO",
+    "description": "CalendarId  {{errString}} not configured for holidaycheck and nextWorking day check ",
+    "undefined": "2023-02-08T07:11:01.365Z"
+  },
+  {
+    "code": "HKFPS0012",
+    "type": "NON_ISO",
+    "description": "Failed to Fetch charge debtor account : {{accountId}}",
+    "undefined": "2023-02-08T07:11:01.848Z"
+  },
+  {
+    "code": "HKFPS0013",
+    "type": "NON_ISO",
+    "label": "RatecodeNotPresent",
+    "description": "Ratecode not present",
+    "undefined": "2023-02-08T07:11:01.878Z"
+  },
+  {
+    "code": "HKFPS0014",
+    "type": "NON_ISO",
+    "label": "UnableToGetAmount",
+    "description": "Unable to get amount",
+    "undefined": "2023-02-08T07:11:01.881Z"
+  },
+  {
+    "code": "HKFPS0015",
+    "type": "NON_ISO",
+    "label": "HighAmtLimitFail",
+    "description": "High amount limit fail, Amount present should be less the limit amount",
+    "undefined": "2023-02-08T07:11:01.882Z"
+  },
+  {
+    "code": "HKFPS0016",
+    "type": "NON_ISO",
+    "label": "LowAmtLimitFail",
+    "description": "Low amount limit fail, Amount present should be greater the limit amount",
+    "undefined": "2023-02-08T07:11:01.884Z"
+  },
+  {
+    "code": "HKFPS0017",
+    "type": "NON_ISO",
+    "label": "PaysysidServiceIdServiceTypeInstructedAmtCrncyInstructedAmtNotFound",
+    "description": "Paysysid, ServiceId, ServiceType, InstructedAmtCrncy, InstructedAmt Not Found",
+    "undefined": "2023-02-08T07:11:01.887Z"
+  },
+  {
+    "code": "HKFPS0018",
+    "type": "NON_ISO",
+    "description": "Debtor Agent {{errString}} Participant Code is not configured in Network Directory",
+    "undefined": "2023-02-08T07:11:01.916Z"
+  },
+  {
+    "code": "HKFPS0019",
+    "type": "NON_ISO",
+    "description": "Creditor Agent {{errString}} Participant Code is not configured in Network Directory",
+    "undefined": "2023-02-08T07:11:01.917Z"
+  },
+  {
+    "code": "HKFPS0020",
+    "type": "NON_ISO",
+    "description": "Debtor Agent {{errString}} Participant Code is invalid",
+    "undefined": "2023-02-08T07:11:01.920Z"
+  },
+  {
+    "code": "HKFPS0021",
+    "type": "NON_ISO",
+    "description": "Creditor Agent {{errString}} Participant Code is invalid",
+    "undefined": "2023-02-08T07:11:01.921Z"
+  },
+  {
+    "code": "HKFPS0022",
+    "type": "NON_ISO",
+    "description": "Debtor Agent {{errString}} Participant Code's currency {{curr}} is not active",
+    "undefined": "2023-02-08T07:11:01.924Z"
+  },
+  {
+    "code": "HKFPS0023",
+    "type": "NON_ISO",
+    "description": "Creditor Agent {{errString}} Participant Code's currency {{curr}} is not active",
+    "undefined": "2023-02-08T07:11:01.925Z"
+  },
+  {
+    "code": "HKFPS0024",
+    "type": "NON_ISO",
+    "description": "Debtor Agent {{errString}} Participant Code's Default receipt mode is B, so payment system {{paysysId}} is not allowed for outbound service",
+    "undefined": "2023-02-08T07:11:01.927Z"
+  },
+  {
+    "code": "HKFPS0025",
+    "type": "NON_ISO",
+    "description": "Creditor Agent {{errString}} Participant Code's Default receipt mode is B, so payment system {{paysysId}} is not allowed for outbound service",
+    "undefined": "2023-02-08T07:11:01.929Z"
+  },
+  {
+    "code": "ID01",
+    "type": "ISO",
+    "label": "CorrespondingOriginalFileStillNotSent",
+    "description": "Signature file was sent to the bank but the corresponding original file has not been sent yet",
+    "undefined": "2023-02-08T07:10:59.717Z"
+  },
+  {
+    "code": "IN01",
+    "type": "ISO",
+    "label": "InactiveDebtorAccount",
+    "description": "Debtor account number [{{accountId}}] status is Inactive. ",
+    "undefined": "2023-02-08T07:11:01.381Z"
+  },
+  {
+    "code": "M003",
+    "type": "NON_ISO",
+    "label": "DrawersSignatureDiffers",
+    "description": "Drawers signature differs",
+    "undefined": "2023-02-08T07:11:00.572Z"
+  },
+  {
+    "code": "M004",
+    "type": "NON_ISO",
+    "label": "DrawersSignatureRequired",
+    "description": "Drawers signature required",
+    "undefined": "2023-02-08T07:11:00.575Z"
+  },
+  {
+    "code": "M006",
+    "type": "NON_ISO",
+    "label": "DrawersAuthorityToOperateAccountNotReceived",
+    "description": "Drawers authority to operate account not received",
+    "undefined": "2023-02-08T07:11:00.586Z"
+  },
+  {
+    "code": "M007",
+    "type": "NON_ISO",
+    "label": "AlterationsRequireDrawersAuthentication",
+    "description": "Alterations require drawers authentication",
+    "undefined": "2023-02-08T07:11:00.590Z"
+  },
+  {
+    "code": "M008",
+    "type": "NON_ISO",
+    "label": "CompanyForStampRequiredOrWrong",
+    "description": "Company For Stamp required or Wrong",
+    "undefined": "2023-02-08T07:11:00.595Z"
+  },
+  {
+    "code": "M011",
+    "type": "NON_ISO",
+    "label": "PaymentStoppedByAttachOrder",
+    "description": "Payment Stopped by Attach Order",
+    "undefined": "2023-02-08T07:11:00.603Z"
+  },
+  {
+    "code": "M012",
+    "type": "NON_ISO",
+    "label": "PaymentStoppedByCourtOrder",
+    "description": "Payment Stopped by court Order",
+    "undefined": "2023-02-08T07:11:00.607Z"
+  },
+  {
+    "code": "M013",
+    "type": "NON_ISO",
+    "label": "WithdrawalStoppedDueToDeathOfAccountHolder",
+    "description": "Withdrawal stopped due to death of Account holder",
+    "undefined": "2023-02-08T07:11:00.613Z"
+  },
+  {
+    "code": "M014",
+    "type": "NON_ISO",
+    "label": "WithdrawalStoppedOwingToLuancyOfAccountHolder",
+    "description": "Withdrawal stopped owing to luancy of Account holder",
+    "undefined": "2023-02-08T07:11:00.620Z"
+  },
+  {
+    "code": "M015",
+    "type": "NON_ISO",
+    "label": "WithdrawalStoppedOwingToInsolvencyOfAccount",
+    "description": "Withdrawal stopped owing to insolvency of Account",
+    "undefined": "2023-02-08T07:11:00.624Z"
+  },
+  {
+    "code": "M021",
+    "type": "NON_ISO",
+    "label": "DuplicateMandateFirstPresentedAlready",
+    "description": "Duplicate Mandate_first presented already",
+    "undefined": "2023-02-08T07:11:00.633Z"
+  },
+  {
+    "code": "M023",
+    "type": "NON_ISO",
+    "label": "ReferToTheBranchKycNotCompleted",
+    "description": "Refer to the branch_KYC not completed",
+    "undefined": "2023-02-08T07:11:00.641Z"
+  },
+  {
+    "code": "M024",
+    "type": "NON_ISO",
+    "label": "AmountInWordsAndFiguresDiffer",
+    "description": "Amount in Words and Figures differ",
+    "undefined": "2023-02-08T07:11:00.644Z"
+  },
+  {
+    "code": "M025",
+    "type": "NON_ISO",
+    "label": "PresentUnderProperMandateCategory",
+    "description": "Present under proper Mandate category",
+    "undefined": "2023-02-08T07:11:00.651Z"
+  },
+  {
+    "code": "M027",
+    "type": "NON_ISO",
+    "label": "ImageNotClear",
+    "description": "Image Not clear",
+    "undefined": "2023-02-08T07:11:00.659Z"
+  },
+  {
+    "code": "M030",
+    "type": "NON_ISO",
+    "label": "MandateRegistrationNotAllowedForCcAccount",
+    "description": "Mandate registration not allowed for CC account",
+    "undefined": "2023-02-08T07:11:00.689Z"
+  },
+  {
+    "code": "M032",
+    "type": "NON_ISO",
+    "label": "RejectedAsPerCustomerConfirmation",
+    "description": "Rejected as per customer confirmation",
+    "undefined": "2023-02-08T07:11:00.707Z"
+  },
+  {
+    "code": "M034",
+    "type": "NON_ISO",
+    "label": "AmountOfEmiMoreThanLimitAllowedForTheAccount",
+    "description": "Amount of EMI more than limit allowed for the account",
+    "undefined": "2023-02-08T07:11:00.711Z"
+  },
+  {
+    "code": "M035",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageCorporateNameMismatch",
+    "description": "Data Mismatch with Image_Corporate name mismatch",
+    "undefined": "2023-02-08T07:11:00.713Z"
+  },
+  {
+    "code": "M049",
+    "type": "NON_ISO",
+    "label": "DrawersSignatureNotUpdatedInBankCbs",
+    "description": "Drawers signature not updated in Bank CBS",
+    "undefined": "2023-02-08T07:11:00.717Z"
+  },
+  {
+    "code": "M050",
+    "type": "NON_ISO",
+    "label": "DrawersSignatureIllegibleInMandateForm",
+    "description": "Drawers signature illegible in Mandate form",
+    "undefined": "2023-02-08T07:11:00.719Z"
+  },
+  {
+    "code": "M051",
+    "type": "NON_ISO",
+    "label": "MandateNotRegisteredNreAccount",
+    "description": "Mandate not registered_NRE account",
+    "undefined": "2023-02-08T07:11:00.723Z"
+  },
+  {
+    "code": "M052",
+    "type": "NON_ISO",
+    "label": "MandateNotRegisteredMinorAccount",
+    "description": "Mandate not registered_minor account",
+    "undefined": "2023-02-08T07:11:00.725Z"
+  },
+  {
+    "code": "M054",
+    "type": "NON_ISO",
+    "label": "MandateRegistrationNotAllowedForPpfAccount",
+    "description": "Mandate registration not allowed for PPF account",
+    "undefined": "2023-02-08T07:11:00.729Z"
+  },
+  {
+    "code": "M055",
+    "type": "NON_ISO",
+    "label": "AccountInoperative",
+    "description": "Account Inoperative",
+    "undefined": "2023-02-08T07:11:00.731Z"
+  },
+  {
+    "code": "M056",
+    "type": "NON_ISO",
+    "label": "MandateNotRegisteredNotMaintainingReqBalance",
+    "description": "Mandate not registered_Not maintaining req balance",
+    "undefined": "2023-02-08T07:11:00.755Z"
+  },
+  {
+    "code": "M057",
+    "type": "NON_ISO",
+    "label": "AccountHolderNameMismatchWithCbs",
+    "description": "Account holder name mismatch with CBS",
+    "undefined": "2023-02-08T07:11:00.757Z"
+  },
+  {
+    "code": "M060",
+    "type": "NON_ISO",
+    "label": "InvalidFrequency",
+    "description": "Invalid frequency",
+    "undefined": "2023-02-08T07:11:00.760Z"
+  },
+  {
+    "code": "M066",
+    "type": "NON_ISO",
+    "label": "JointSignatureRequired",
+    "description": "Joint signature required",
+    "undefined": "2023-02-08T07:11:00.763Z"
+  },
+  {
+    "code": "M067",
+    "type": "NON_ISO",
+    "label": "ThumbImpressionInCbsButCustSignInMandate",
+    "description": "Thumb impression in CBS but cust sign in Mandate",
+    "undefined": "2023-02-08T07:11:00.765Z"
+  },
+  {
+    "code": "M074",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageAccountNumber",
+    "description": "Data mismatch with image_Account number",
+    "undefined": "2023-02-08T07:11:00.770Z"
+  },
+  {
+    "code": "M075",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageAccountType",
+    "description": "Data mismatch with image_Account type",
+    "undefined": "2023-02-08T07:11:00.773Z"
+  },
+  {
+    "code": "M077",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageFrequency",
+    "description": "Data mismatch with image_Frequency",
+    "undefined": "2023-02-08T07:11:00.776Z"
+  },
+  {
+    "code": "M078",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImagePeriod",
+    "description": "Data mismatch with image_Period",
+    "undefined": "2023-02-08T07:11:00.778Z"
+  },
+  {
+    "code": "M079",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageDebitType",
+    "description": "Data mismatch with image_Debit type",
+    "undefined": "2023-02-08T07:11:00.791Z"
+  },
+  {
+    "code": "M080",
+    "type": "NON_ISO",
+    "label": "DataMimatchWithImageAmount",
+    "description": "Data mimatch with image_amount",
+    "undefined": "2023-02-08T07:11:00.795Z"
+  },
+  {
+    "code": "M081",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageStartDate",
+    "description": "Data mismatch with image_start date",
+    "undefined": "2023-02-08T07:11:00.800Z"
+  },
+  {
+    "code": "M082",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageEndDate",
+    "description": "Data mismatch with image_end date",
+    "undefined": "2023-02-08T07:11:00.804Z"
+  },
+  {
+    "code": "M083",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImagePayerName",
+    "description": "Data mismatch with image_payer name",
+    "undefined": "2023-02-08T07:11:00.829Z"
+  },
+  {
+    "code": "M084",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageDebtorBankName",
+    "description": "Data mismatch with image_Debtor bank name",
+    "undefined": "2023-02-08T07:11:00.853Z"
+  },
+  {
+    "code": "M085",
+    "type": "NON_ISO",
+    "label": "DataMismatchWithImageMoreThanOneField",
+    "description": "Data mismatch with image_more than one field",
+    "undefined": "2023-02-08T07:11:00.857Z"
+  },
+  {
+    "code": "M088",
+    "type": "NON_ISO",
+    "label": "ApiDataMismatchWithCustInfoAndDataMandate",
+    "description": "API data mismatch with cust info and data mandate",
+    "undefined": "2023-02-08T07:11:00.859Z"
+  },
+  {
+    "code": "M089",
+    "type": "NON_ISO",
+    "label": "AadharNumberMismatchWithX509CertficAndMandate",
+    "description": "Aadhar number mismatch with X509 Certfic and mandate",
+    "undefined": "2023-02-08T07:11:00.862Z"
+  },
+  {
+    "code": "M090",
+    "type": "NON_ISO",
+    "label": "AadharNumberMismatchWithX509CertficAndBankCbs",
+    "description": "Aadhar number mismatch with X509 Certfic and bank CBS",
+    "undefined": "2023-02-08T07:11:00.881Z"
+  },
+  {
+    "code": "M091",
+    "type": "NON_ISO",
+    "label": "EsignSignatureIsTamperedOrCorrupt",
+    "description": "eSign signature is tampered or Corrupt",
+    "undefined": "2023-02-08T07:11:00.887Z"
+  },
+  {
+    "code": "M092",
+    "type": "NON_ISO",
+    "label": "SignedContentDoesNotTallyWithDataMandate",
+    "description": "Signed content does not tally with data mandate",
+    "undefined": "2023-02-08T07:11:00.890Z"
+  },
+  {
+    "code": "M093",
+    "type": "NON_ISO",
+    "label": "AadharNotMappedToAccountNumber",
+    "description": "Aadhar not mapped to account number",
+    "undefined": "2023-02-08T07:11:00.895Z"
+  },
+  {
+    "code": "M094",
+    "type": "NON_ISO",
+    "label": "AppropriateNachMandateNotUploaded",
+    "description": "Appropriate NACH mandate not uploaded",
+    "undefined": "2023-02-08T07:11:00.900Z"
+  },
+  {
+    "code": "M095",
+    "type": "NON_ISO",
+    "label": "MandatePresentedWithThumbImpression",
+    "description": "Mandate presented with Thumb impression",
+    "undefined": "2023-02-08T07:11:00.903Z"
+  },
+  {
+    "code": "MD01",
+    "type": "ISO",
+    "label": "NoMandate",
+    "description": "No Mandate",
+    "undefined": "2023-02-08T07:10:59.741Z"
+  },
+  {
+    "code": "MD02",
+    "type": "ISO",
+    "label": "MissingMandatoryInformationInMandate",
+    "description": "Mandate related information data required by the scheme is missing",
+    "undefined": "2023-02-08T07:10:59.746Z"
+  },
+  {
+    "code": "MD05",
+    "type": "ISO",
+    "label": "CollectionNotDue",
+    "description": "Creditor or creditor's agent should not have collected the direct debit",
+    "undefined": "2023-02-08T07:10:59.782Z"
+  },
+  {
+    "code": "MD06",
+    "type": "ISO",
+    "label": "RefundRequestByEndCustomer",
+    "description": "Return of funds requested by end customer",
+    "undefined": "2023-02-08T07:10:59.797Z"
+  },
+  {
+    "code": "MD07",
+    "type": "ISO",
+    "label": "EndCustomerDeceased",
+    "description": "End customer is deceased",
+    "undefined": "2023-02-08T07:10:59.855Z"
+  },
+  {
+    "code": "MD08",
+    "type": "ISO",
+    "label": "NoMandateServiceByAgent",
+    "description": "Receiving agent does not offer specified Mandate services",
+    "undefined": "2023-02-08T07:11:00.381Z"
+  },
+  {
+    "code": "MD09",
+    "type": "ISO",
+    "label": "NoMandateServiceOnCustomer",
+    "description": "Account is not open to specified Mandates services",
+    "undefined": "2023-02-08T07:11:00.388Z"
+  },
+  {
+    "code": "MD10",
+    "type": "ISO",
+    "label": "NoMandateServiceForSpecified",
+    "description": "Account is not open to specified Mandates services for this particular creditor",
+    "undefined": "2023-02-08T07:11:00.415Z"
+  },
+  {
+    "code": "MD11",
+    "type": "ISO",
+    "label": "UnrecognisedAgent",
+    "description": "Agent to whom the message needs to be forwarded cannot be located",
+    "undefined": "2023-02-08T07:11:00.430Z"
+  },
+  {
+    "code": "MD12",
+    "type": "ISO",
+    "label": "NotUniqueMandateReference",
+    "description": "Mandate identification is not unique to the creditor",
+    "undefined": "2023-02-08T07:11:00.441Z"
+  },
+  {
+    "code": "MD13",
+    "type": "ISO",
+    "label": "IncorrectCustomerAuthentication",
+    "description": "There is a problem with the customer authentication",
+    "undefined": "2023-02-08T07:11:00.446Z"
+  },
+  {
+    "code": "MD14",
+    "type": "ISO",
+    "label": "IncorrectAgent",
+    "description": "Agent in the payment workflow is incorrect",
+    "undefined": "2023-02-08T07:11:00.471Z"
+  },
+  {
+    "code": "MD15",
+    "type": "ISO",
+    "label": "IncorrectCurrency",
+    "description": "Currency of the transaction is incorrect",
+    "undefined": "2023-02-08T07:11:00.489Z"
+  },
+  {
+    "code": "MD16",
+    "type": "ISO",
+    "label": "RequestedByCustomer",
+    "description": "Cancellation/amendment requested by the debtor",
+    "undefined": "2023-02-08T07:11:00.497Z"
+  },
+  {
+    "code": "MD17",
+    "type": "ISO",
+    "label": "RequestedByInitiatingParty",
+    "description": "Cancellation/amendment requested by the creditor",
+    "undefined": "2023-02-08T07:11:00.502Z"
+  },
+  {
+    "code": "MD18",
+    "type": "ISO",
+    "label": "RequestedByInitiatingPartyAndCustomer",
+    "description": "Cancellation/amendment requested by the creditor and the debtor",
+    "undefined": "2023-02-08T07:11:00.508Z"
+  },
+  {
+    "code": "MD19",
+    "type": "ISO",
+    "label": "MandateCancelledDueToEarlySettlement",
+    "description": "Mandate cancellation following early reimbursement of the debit by the debtor",
+    "undefined": "2023-02-08T07:11:00.513Z"
+  },
+  {
+    "code": "MD20",
+    "type": "ISO",
+    "label": "MandateExpired",
+    "description": "Mandate cancellation following validity expiration",
+    "undefined": "2023-02-08T07:11:00.539Z"
+  },
+  {
+    "code": "MD21",
+    "type": "ISO",
+    "label": "MandateCancelledDueToFraud",
+    "description": "Mandate cancellation due to suspected fraud",
+    "undefined": "2023-02-08T07:11:00.549Z"
+  },
+  {
+    "code": "MD22",
+    "type": "ISO",
+    "label": "MandateInitiationCancelled",
+    "description": "Mandate cancellation following mandate initiation cancellation",
+    "undefined": "2023-02-08T07:11:00.556Z"
+  },
+  {
+    "code": "MD23",
+    "type": "ISO",
+    "label": "MandateAmendmentCancelled",
+    "description": "Mandate cancellation following mandate amendment cancellation",
+    "undefined": "2023-02-08T07:11:00.567Z"
+  },
+  {
+    "code": "MS02",
+    "type": "ISO",
+    "label": "NotSpecifiedReasonCustomerGenerated",
+    "description": "Reason has not been specified by end customer",
+    "undefined": "2023-02-08T07:10:59.864Z"
+  },
+  {
+    "code": "MS03",
+    "type": "ISO",
+    "label": "NotSpecifiedReasonAgentGenerated",
+    "description": "Reason has not been specified by agent",
+    "undefined": "2023-02-08T07:10:59.868Z"
+  },
+  {
+    "code": "NACH00001",
+    "type": "NON_ISO",
+    "description": "Request Execution date change not allowed",
+    "undefined": "2023-02-08T07:11:03.226Z"
+  },
+  {
+    "code": "NACH00002",
+    "type": "NON_ISO",
+    "description": "Error while fetching working day - {{errData}}",
+    "undefined": "2023-02-08T07:11:03.227Z"
+  },
+  {
+    "code": "NACH00003",
+    "type": "NON_ISO",
+    "description": "Creditor Agent {{errString}} Routing number is not configured in Network Directory",
+    "undefined": "2023-02-08T07:11:03.228Z"
+  },
+  {
+    "code": "NACH00004",
+    "type": "NON_ISO",
+    "description": "Debitor Agent {{errString}} Routing number is not configured in Network Directory",
+    "undefined": "2023-02-08T07:11:03.230Z"
+  },
+  {
+    "code": "NACH00005",
+    "type": "NON_ISO",
+    "description": "Creditor Agent {{errString}} Record status is not active",
+    "undefined": "2023-02-08T07:11:03.231Z"
+  },
+  {
+    "code": "NACH00006",
+    "type": "NON_ISO",
+    "description": "Debitor Agent {{errString}} Record status is not active",
+    "undefined": "2023-02-08T07:11:03.232Z"
+  },
+  {
+    "code": "NARR",
+    "type": "ISO",
+    "label": "Narrative",
+    "description": "{{description}}",
+    "undefined": "2023-02-08T07:10:59.870Z"
+  },
+  {
+    "code": "NERI",
+    "type": "ISO",
+    "label": "NoERI",
+    "description": "Credit transfer is tagged as an Extended Remittance Information (ERI) transaction but does not contain ERI",
+    "undefined": "2023-02-08T07:10:59.893Z"
+  },
+  {
+    "code": "NOAS",
+    "type": "ISO",
+    "label": "NoAnswerFromCustomer",
+    "description": "No response from Beneficiary",
+    "undefined": "2023-02-08T07:11:00.341Z"
+  },
+  {
+    "code": "NOCM",
+    "type": "ISO",
+    "label": "NotCompliant",
+    "description": "Customer account is not compliant with regulatory requirements, for example FICA (in South Africa) or any other regulatory requirements which render an account inactive for certain processing",
+    "undefined": "2023-02-08T07:11:00.346Z"
+  },
+  {
+    "code": "NOOR",
+    "type": "ISO",
+    "label": "NoOriginalTransactionReceived",
+    "description": "Original SCT never received",
+    "undefined": "2023-02-08T07:11:00.351Z"
+  },
+  {
+    "code": "OECON00001",
+    "type": "NON_ISO",
+    "description": "Record Considered for deconstruction",
+    "undefined": "2023-02-08T07:11:01.680Z"
+  },
+  {
+    "code": "OECON00002",
+    "type": "NON_ISO",
+    "description": "Consolidation rejection from suspense",
+    "undefined": "2023-02-08T07:11:01.843Z"
+  },
+  {
+    "code": "OECON00003",
+    "type": "NON_ISO",
+    "description": "Failed to get rate for consolidation",
+    "undefined": "2023-02-08T07:11:01.846Z"
+  },
+  {
+    "code": "OECON00004",
+    "type": "NON_ISO",
+    "description": "Async Fx system failed to respond",
+    "undefined": "2023-02-08T07:11:01.902Z"
+  },
+  {
+    "code": "OECON00005",
+    "type": "NON_ISO",
+    "description": "Failed to get rate from async handle with error : {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.906Z"
+  },
+  {
+    "code": "OEPYE00001",
+    "type": "NON_ISO",
+    "description": "Could not derive ISO mapper for identifiers: {{paramStr}}",
+    "undefined": "2023-02-08T07:11:00.941Z"
+  },
+  {
+    "code": "OEPYE00002",
+    "type": "NON_ISO",
+    "description": "Failed to create customer processing transaction entry",
+    "undefined": "2023-02-08T07:11:00.943Z"
+  },
+  {
+    "code": "OEPYE00003",
+    "type": "NON_ISO",
+    "description": "Failed to create customer plus settlement processing transaction entry",
+    "undefined": "2023-02-08T07:11:00.945Z"
+  },
+  {
+    "code": "OEPYE00004",
+    "type": "NON_ISO",
+    "description": "Failed to identify customer transaction entry with ID: {{idString}}",
+    "undefined": "2023-02-08T07:11:00.950Z"
+  },
+  {
+    "code": "OEPYE00005",
+    "type": "NON_ISO",
+    "description": "Failed to update tran-posting response to customer transaction entry with ID: {{idString}}",
+    "undefined": "2023-02-08T07:11:00.952Z"
+  },
+  {
+    "code": "OEPYE00006",
+    "type": "NON_ISO",
+    "description": "Errors found while mapping ISO to entity data: {{errStr}}",
+    "undefined": "2023-02-08T07:11:00.960Z"
+  },
+  {
+    "code": "OEPYE00007",
+    "type": "NON_ISO",
+    "description": "Could not identify the original entity with transaction reference: {{paramStr}}. Return ID: {{rtrId}}",
+    "undefined": "2023-02-08T07:11:00.963Z"
+  },
+  {
+    "code": "OEPYE00008",
+    "type": "NON_ISO",
+    "description": "Returned amount [{{retAmtStr}}] is greater than the original instructed amount [{{orgAmtStr}}]",
+    "undefined": "2023-02-08T07:11:00.971Z"
+  },
+  {
+    "code": "OEPYE00009",
+    "type": "NON_ISO",
+    "description": "Could not persist return event. Return ID: {{rtrId}}",
+    "undefined": "2023-02-08T07:11:00.975Z"
+  },
+  {
+    "code": "OEPYE00010",
+    "type": "NON_ISO",
+    "description": "Transaction reference number cannot be generated. Error: {{error}}",
+    "undefined": "2023-02-08T07:11:00.981Z"
+  },
+  {
+    "code": "OEPYE00011",
+    "type": "NON_ISO",
+    "description": "End to end identification cannot be generated. Error: {{error}}",
+    "undefined": "2023-02-08T07:11:01.009Z"
+  },
+  {
+    "code": "OEPYE00012",
+    "type": "NON_ISO",
+    "description": "Return Id cannot be generated. Error: {{error}}",
+    "undefined": "2023-02-08T07:11:01.013Z"
+  },
+  {
+    "code": "OEPYE00013",
+    "type": "NON_ISO",
+    "description": "Sts Id cannot be generated. Error: {{error}}",
+    "undefined": "2023-02-08T07:11:01.016Z"
+  },
+  {
+    "code": "OEPYE00014",
+    "type": "NON_ISO",
+    "description": "Failed to identify reversal event entry with ID: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.019Z"
+  },
+  {
+    "code": "OEPYE00015",
+    "type": "NON_ISO",
+    "description": "Could not identify the original entity with transaction reference: {{paramStr}}",
+    "undefined": "2023-02-08T07:11:01.025Z"
+  },
+  {
+    "code": "OEPYE00016",
+    "type": "NON_ISO",
+    "description": "Could not persist reversal event",
+    "undefined": "2023-02-08T07:11:01.031Z"
+  },
+  {
+    "code": "OEPYE00017",
+    "type": "NON_ISO",
+    "description": "CP is already completed for original PO",
+    "undefined": "2023-02-08T07:11:01.036Z"
+  },
+  {
+    "code": "OEPYE00018",
+    "type": "NON_ISO",
+    "description": "CP is under process for original PO",
+    "undefined": "2023-02-08T07:11:01.039Z"
+  },
+  {
+    "code": "OEPYE00019",
+    "type": "NON_ISO",
+    "description": "Original PO for ReversalEvent is in suspense.",
+    "undefined": "2023-02-08T07:11:01.043Z"
+  },
+  {
+    "code": "OEPYE00020",
+    "type": "NON_ISO",
+    "category": "TECH",
+    "description": "Unexpected error occurred {{errString}}",
+    "undefined": "2023-02-08T07:11:01.048Z"
+  },
+  {
+    "code": "OEPYE00021",
+    "type": "NON_ISO",
+    "description": "Original PO for ReversalEvent is rejected or blocked",
+    "undefined": "2023-02-08T07:11:01.051Z"
+  },
+  {
+    "code": "OEPYE00022",
+    "type": "NON_ISO",
+    "description": "Channel is not enabled or configured. Channel ID: {{channelId}}",
+    "undefined": "2023-02-08T07:11:01.054Z"
+  },
+  {
+    "code": "OEPYE00023",
+    "type": "NON_ISO",
+    "description": "Module is not enabled or configured. Module ID: {{moduleId}}",
+    "undefined": "2023-02-08T07:11:01.057Z"
+  },
+  {
+    "code": "OEPYE00024",
+    "type": "NON_ISO",
+    "description": "ChnlModulePref is not enabled or configured. Channel ID: {{channelId}} Module ID: {{moduleId}}",
+    "undefined": "2023-02-08T07:11:01.061Z"
+  },
+  {
+    "code": "OEPYE00025",
+    "type": "NON_ISO",
+    "description": "Instructed amount currency is not equal to ChnlModulePref currency",
+    "undefined": "2023-02-08T07:11:01.066Z"
+  },
+  {
+    "code": "OEPYE00026",
+    "type": "NON_ISO",
+    "description": "Instructed amount is more than maximum ChnlModulePref amount",
+    "undefined": "2023-02-08T07:11:01.070Z"
+  },
+  {
+    "code": "OEPYE00027",
+    "type": "NON_ISO",
+    "description": "Instructed amount is less than minimum ChnlModulePref amount",
+    "undefined": "2023-02-08T07:11:01.074Z"
+  },
+  {
+    "code": "OEPYE00028",
+    "type": "NON_ISO",
+    "description": "Beneficiary name validation failed. {{valErr}}",
+    "undefined": "2023-02-08T07:11:01.076Z"
+  },
+  {
+    "code": "OEPYE00029",
+    "type": "NON_ISO",
+    "description": "Beneficiary name validation failed as creditor party does not contain the name value",
+    "undefined": "2023-02-08T07:11:01.080Z"
+  },
+  {
+    "code": "OEPYE00030",
+    "type": "NON_ISO",
+    "description": "Beneficiary name validation failed as the creditor party account is closed. Account ID: [{{acctId}}]",
+    "undefined": "2023-02-08T07:11:01.086Z"
+  },
+  {
+    "code": "OEPYE00031",
+    "type": "NON_ISO",
+    "description": "Beneficiary name validation failed as the creditor party account details could not be fetched. Account ID: [{{acctId}}]",
+    "undefined": "2023-02-08T07:11:01.089Z"
+  },
+  {
+    "code": "OEPYE00032",
+    "type": "NON_ISO",
+    "description": "Beneficiary name validation failed due to invalid rule setup. Error: [{{errVal}}]",
+    "undefined": "2023-02-08T07:11:01.093Z"
+  },
+  {
+    "code": "OEPYE00033",
+    "type": "NON_ISO",
+    "description": "Call to Scheme configuration server failed: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.096Z"
+  },
+  {
+    "code": "OEPYE00034",
+    "type": "NON_ISO",
+    "description": "Call to Payment Operations server failed: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.120Z"
+  },
+  {
+    "code": "OEPYE00035",
+    "type": "NON_ISO",
+    "description": "Reject Entity not found for entityId: [{{entityId}}]. Error: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.124Z"
+  },
+  {
+    "code": "OEPYE00036",
+    "type": "NON_ISO",
+    "description": "Payment order could not be fetched: [{{entrySrlNum}}]",
+    "undefined": "2023-02-08T07:11:01.152Z"
+  },
+  {
+    "code": "OEPYE00037",
+    "type": "NON_ISO",
+    "description": "Failed to update Payment order entry with ID: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.157Z"
+  },
+  {
+    "code": "OEPYE00038",
+    "type": "NON_ISO",
+    "description": "Mapping not successful. Error: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.160Z"
+  },
+  {
+    "code": "OEPYE00039",
+    "type": "NON_ISO",
+    "description": "Could not persist reject event. Error: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.162Z"
+  },
+  {
+    "code": "OEPYE00040",
+    "type": "NON_ISO",
+    "description": "Return Entity not found for entityId: [{{entityId}}]. Error: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.167Z"
+  },
+  {
+    "code": "OEPYE00041",
+    "type": "NON_ISO",
+    "description": "Call to Reference server failed: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.170Z"
+  },
+  {
+    "code": "OEPYE00042",
+    "type": "NON_ISO",
+    "description": "Failed to update ReversalEvent entry with ID: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.176Z"
+  },
+  {
+    "code": "OEPYE00043",
+    "type": "NON_ISO",
+    "description": "Failed to update customer transaction entry with ID: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.181Z"
+  },
+  {
+    "code": "OEPYE00044",
+    "type": "NON_ISO",
+    "description": "Failed to get the payment order status: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.184Z"
+  },
+  {
+    "code": "OEPYE00045",
+    "type": "NON_ISO",
+    "description": "No entry found in MsgProc for entityId: {{entityId}}",
+    "undefined": "2023-02-08T07:11:01.211Z"
+  },
+  {
+    "code": "OEPYE00046",
+    "type": "NON_ISO",
+    "description": "No data found in network directory for IFSC: {{ifsc}}",
+    "undefined": "2023-02-08T07:11:01.214Z"
+  },
+  {
+    "code": "OEPYE00047",
+    "type": "NON_ISO",
+    "description": "Call to Network Directory server failed: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.217Z"
+  },
+  {
+    "code": "OEPYE00048",
+    "type": "NON_ISO",
+    "description": "Back dated payment order requests are not allowed",
+    "undefined": "2023-02-08T07:11:01.219Z"
+  },
+  {
+    "code": "OEPYE00049",
+    "type": "NON_ISO",
+    "description": "Payment order cannot be processed as the requested date is beyond the allowed number of past days",
+    "undefined": "2023-02-08T07:11:01.221Z"
+  },
+  {
+    "code": "OEPYE00050",
+    "type": "NON_ISO",
+    "description": "Unable to update record in MsgProc for entityId: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.223Z"
+  },
+  {
+    "code": "OEPYE00051",
+    "type": "NON_ISO",
+    "description": "No entry found in DeferredProc for paysysId: {{paysysId}}, procEvent: {{procEvent}} and entityType: {{entityType}}",
+    "undefined": "2023-02-08T07:11:01.226Z"
+  },
+  {
+    "code": "OEPYE00052",
+    "type": "NON_ISO",
+    "description": "No entry found in FutureDatedProc for paysysId: {{paysysId}} and procDate: {{procDate}}",
+    "undefined": "2023-02-08T07:11:01.228Z"
+  },
+  {
+    "code": "OEPYE00053",
+    "type": "NON_ISO",
+    "description": "Failed to create settlement transaction entry",
+    "undefined": "2023-02-08T07:11:01.231Z"
+  },
+  {
+    "code": "OEPYE00054",
+    "type": "NON_ISO",
+    "description": "Failed to identify settlement transaction entry with ID: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.235Z"
+  },
+  {
+    "code": "OEPYE00055",
+    "type": "NON_ISO",
+    "description": "Original payment order CP has already been reversed: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.237Z"
+  },
+  {
+    "code": "OEPYE00056",
+    "type": "NON_ISO",
+    "description": "Error in fetching reversal event for PO ID: {{poIdString}}",
+    "undefined": "2023-02-08T07:11:01.239Z"
+  },
+  {
+    "code": "OEPYE00057",
+    "type": "NON_ISO",
+    "description": "The original payment order ID is not defined",
+    "undefined": "2023-02-08T07:11:01.242Z"
+  },
+  {
+    "code": "OEPYE00058",
+    "type": "NON_ISO",
+    "description": "The external reason code is not defined",
+    "undefined": "2023-02-08T07:11:01.248Z"
+  },
+  {
+    "code": "OEPYE00059",
+    "type": "NON_ISO",
+    "description": "The paysys Id for the request is not defined",
+    "undefined": "2023-02-08T07:11:01.273Z"
+  },
+  {
+    "code": "OEPYE00060",
+    "type": "NON_ISO",
+    "description": "The external reason code provided is invalid: {{rsnCode}}",
+    "undefined": "2023-02-08T07:11:01.280Z"
+  },
+  {
+    "code": "OEPYE00061",
+    "type": "NON_ISO",
+    "description": "Error in finding the return event",
+    "undefined": "2023-02-08T07:11:01.285Z"
+  },
+  {
+    "code": "OEPYE00062",
+    "type": "NON_ISO",
+    "description": "Return: {{idString}} has already been initiated for the PO: {{poIdString}}",
+    "undefined": "2023-02-08T07:11:01.288Z"
+  },
+  {
+    "code": "OEPYE00063",
+    "type": "NON_ISO",
+    "description": "Error in enriching the return entity from the original PO: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.291Z"
+  },
+  {
+    "code": "OEPYE00064",
+    "type": "NON_ISO",
+    "description": "Error in creating the return entity: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.294Z"
+  },
+  {
+    "code": "OEPYE00065",
+    "type": "NON_ISO",
+    "description": "Return Cutoff value is not defined for the paysys: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.297Z"
+  },
+  {
+    "code": "OEPYE00066",
+    "type": "NON_ISO",
+    "description": "Settlement Mode is not defined for the paysys: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.302Z"
+  },
+  {
+    "code": "OEPYE00067",
+    "type": "NON_ISO",
+    "description": "The Cutoff has breached for the paysys: {{idString}} after which the return has been initiated",
+    "undefined": "2023-02-08T07:11:01.305Z"
+  },
+  {
+    "code": "OEPYE00068",
+    "type": "NON_ISO",
+    "description": "Could not fetch the details from the event logs of operations service",
+    "undefined": "2023-02-08T07:11:01.310Z"
+  },
+  {
+    "code": "OEPYE00069",
+    "type": "NON_ISO",
+    "description": "Sender LEI and value derived from remittance info do not match.",
+    "undefined": "2023-02-08T07:11:01.313Z"
+  },
+  {
+    "code": "OEPYE00070",
+    "type": "NON_ISO",
+    "description": "Beneficiary LEI and value derived from remittance info do not match.",
+    "undefined": "2023-02-08T07:11:01.320Z"
+  },
+  {
+    "code": "OEPYE00071",
+    "type": "NON_ISO",
+    "description": "Sender LEI details in the account are missing.",
+    "undefined": "2023-02-08T07:11:01.322Z"
+  },
+  {
+    "code": "OEPYE00072",
+    "type": "NON_ISO",
+    "description": "LEI value in the account is expired.",
+    "undefined": "2023-02-08T07:11:01.324Z"
+  },
+  {
+    "code": "OEPYE00073",
+    "type": "NON_ISO",
+    "description": "Beneficiary LEI details in the account are missing.",
+    "undefined": "2023-02-08T07:11:01.327Z"
+  },
+  {
+    "code": "OEPYE00074",
+    "type": "NON_ISO",
+    "description": "The reason code provided is invalid: {{rsnCode}}",
+    "undefined": "2023-02-08T07:11:01.389Z"
+  },
+  {
+    "code": "OEPYE00075",
+    "type": "NON_ISO",
+    "description": "Message already sent out. Reversal cannot be created",
+    "undefined": "2023-02-08T07:11:01.391Z"
+  },
+  {
+    "code": "OEPYE00076",
+    "type": "NON_ISO",
+    "description": "Reversal: {{idString}} has already been initiated for the PO: {{poIdString}}",
+    "undefined": "2023-02-08T07:11:01.394Z"
+  },
+  {
+    "code": "OEPYE00077",
+    "type": "NON_ISO",
+    "description": "Could not persist MsgProc Event.",
+    "undefined": "2023-02-08T07:11:01.648Z"
+  },
+  {
+    "code": "OEPYE00078",
+    "type": "NON_ISO",
+    "description": "Message generation failed from MessageHub. Error: {{error}}",
+    "undefined": "2023-02-08T07:11:01.672Z"
+  },
+  {
+    "code": "OEPYE00079",
+    "type": "NON_ISO",
+    "description": "The reason code provided is invalid: {{rsnCode}}",
+    "undefined": "2023-02-08T07:11:01.684Z"
+  },
+  {
+    "code": "OEPYE00080",
+    "type": "NON_ISO",
+    "description": "Message already sent out. Reversal cannot be created",
+    "undefined": "2023-02-08T07:11:01.686Z"
+  },
+  {
+    "code": "OEPYE00081",
+    "type": "NON_ISO",
+    "description": "Reversal: {{idString}} has already been initiated for the PO: {{poIdString}}",
+    "undefined": "2023-02-08T07:11:01.690Z"
+  },
+  {
+    "code": "OEPYE00082",
+    "type": "NON_ISO",
+    "description": "Error in fetching reject event for PO ID: {{poIdString}}",
+    "undefined": "2023-02-08T07:11:01.699Z"
+  },
+  {
+    "code": "OEPYE00083",
+    "type": "NON_ISO",
+    "description": "Reject: {{idString}} has already been initiated for the PO: {{poIdString}}",
+    "undefined": "2023-02-08T07:11:01.704Z"
+  },
+  {
+    "code": "OEPYE00084",
+    "type": "NON_ISO",
+    "description": "Could not persist FutureDatedProc data. Error: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.708Z"
+  },
+  {
+    "code": "OEPYE00085",
+    "type": "NON_ISO",
+    "description": "Could not persist DeferredProc data. Error: [{{error}}]",
+    "undefined": "2023-02-08T07:11:01.715Z"
+  },
+  {
+    "code": "OEPYE00086",
+    "type": "NON_ISO",
+    "description": "Failed to update settlement transaction entry with ID: {{tranId}}",
+    "undefined": "2023-02-08T07:11:01.719Z"
+  },
+  {
+    "code": "OEPYE00087",
+    "type": "NON_ISO",
+    "description": "Error encountered while fetching PO details for dedup check",
+    "undefined": "2023-02-08T07:11:01.726Z"
+  },
+  {
+    "code": "OEPYE00088",
+    "type": "NON_ISO",
+    "description": "Either equivalent or instructed amount should present",
+    "undefined": "2023-02-08T07:11:01.729Z"
+  },
+  {
+    "code": "OEPYE00089",
+    "type": "NON_ISO",
+    "description": "Manul rate defined but not present",
+    "undefined": "2023-02-08T07:11:01.732Z"
+  },
+  {
+    "code": "OEPYE00090",
+    "type": "NON_ISO",
+    "description": "Tolerance rate check failed",
+    "undefined": "2023-02-08T07:11:01.737Z"
+  },
+  {
+    "code": "OEPYE00091",
+    "type": "NON_ISO",
+    "description": "Fail to fetch system rate",
+    "undefined": "2023-02-08T07:11:01.740Z"
+  },
+  {
+    "code": "OEPYE00092",
+    "type": "NON_ISO",
+    "description": "Fail to fetch advised rate",
+    "undefined": "2023-02-08T07:11:01.743Z"
+  },
+  {
+    "code": "OEPYE00093",
+    "type": "NON_ISO",
+    "description": "Threshold amount check failed",
+    "undefined": "2023-02-08T07:11:01.746Z"
+  },
+  {
+    "code": "OEPYE00094",
+    "type": "NON_ISO",
+    "description": "Rate provided is expired",
+    "undefined": "2023-02-08T07:11:01.749Z"
+  },
+  {
+    "code": "OEPYE00095",
+    "type": "NON_ISO",
+    "description": "Fail to get fx amount",
+    "undefined": "2023-02-08T07:11:01.751Z"
+  },
+  {
+    "code": "OEPYE00096",
+    "type": "NON_ISO",
+    "description": "Fail to a threshold check on po amount",
+    "undefined": "2023-02-08T07:11:01.753Z"
+  },
+  {
+    "code": "OEPYE00097",
+    "type": "NON_ISO",
+    "label": "ConsolPoRedisInsertFailed",
+    "description": "PO data in redis insert falied for consolidation : {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.804Z"
+  },
+  {
+    "code": "OEPYE00098",
+    "type": "NON_ISO",
+    "label": "ConsolPoRedisFetchFailed",
+    "description": "PO data in redis fetch falied for consolidation : {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.811Z"
+  },
+  {
+    "code": "OEPYE00099",
+    "type": "NON_ISO",
+    "label": "ConsolStatsInsertFailed",
+    "description": "Consolidation stats insert failed",
+    "undefined": "2023-02-08T07:11:01.817Z"
+  },
+  {
+    "code": "OEPYE00100",
+    "type": "NON_ISO",
+    "label": "CustProfPrefFetchFailed",
+    "description": "Customer profile preference fetch failed",
+    "undefined": "2023-02-08T07:11:01.828Z"
+  },
+  {
+    "code": "OEPYE00101",
+    "type": "NON_ISO",
+    "description": "fail to get rate",
+    "undefined": "2023-02-08T07:11:01.792Z"
+  },
+  {
+    "code": "OEPYE00102",
+    "type": "NON_ISO",
+    "label": "ConsolStatsFetchFailed",
+    "description": "Consolidation stats fetch failed",
+    "undefined": "2023-02-08T07:11:01.832Z"
+  },
+  {
+    "code": "OEPYE00103",
+    "type": "NON_ISO",
+    "description": "Service is not active",
+    "undefined": "2023-02-08T07:11:01.835Z"
+  },
+  {
+    "code": "OEPYE00104",
+    "type": "NON_ISO",
+    "description": "Outbound Payment Record Limit set at Customer Profile for the Account Id {{accountId}} is breached",
+    "undefined": "2023-02-08T07:11:02.236Z"
+  },
+  {
+    "code": "OEPYE00105",
+    "type": "NON_ISO",
+    "description": "Inbound Payment Record Limit set at Customer Profile for the Account Id {{accountId}} is breached",
+    "undefined": "2023-02-08T07:11:02.267Z"
+  },
+  {
+    "code": "OEPYE00106",
+    "type": "NON_ISO",
+    "description": "Instructed CCY is mandatory",
+    "undefined": "2023-02-08T07:11:01.850Z"
+  },
+  {
+    "code": "OEPYE00107",
+    "type": "NON_ISO",
+    "description": "Record already present in Suspense",
+    "undefined": "2023-02-08T07:11:01.861Z"
+  },
+  {
+    "code": "OEPYE00108",
+    "type": "NON_ISO",
+    "label": "RateNotPresentAfterSuspense",
+    "description": "found exchange rate field null or empty present after suspense",
+    "undefined": "2023-02-08T07:11:01.885Z"
+  },
+  {
+    "code": "OEPYE00109",
+    "type": "NON_ISO",
+    "description": "Payment System not subscribed by the customer for the Account Id {{accountId}}",
+    "undefined": "2023-02-08T07:11:02.269Z"
+  },
+  {
+    "code": "OEPYE00110",
+    "type": "NON_ISO",
+    "description": "Service not subscribed in the customer profile for the Account Id {{accountId}}",
+    "undefined": "2023-02-08T07:11:02.271Z"
+  },
+  {
+    "code": "OEPYE00111",
+    "type": "NON_ISO",
+    "description": "Reversal entity created with errors, since the original message is sent out",
+    "undefined": "2023-02-08T07:11:01.895Z"
+  },
+  {
+    "code": "OEPYE00118",
+    "type": "NON_ISO",
+    "description": "Pattern not configured in scheme for the ID generation",
+    "undefined": "2023-02-08T07:11:01.898Z"
+  },
+  {
+    "code": "OEPYE00119",
+    "type": "NON_ISO",
+    "description": "invalid equivalent amount currency",
+    "undefined": "2023-02-08T07:11:01.909Z"
+  },
+  {
+    "code": "OEPYE00120",
+    "type": "NON_ISO",
+    "description": "connection refused to msgHub service",
+    "undefined": "2023-02-08T07:11:01.911Z"
+  },
+  {
+    "code": "OEPYE00121",
+    "type": "NON_ISO",
+    "description": "message validation failure",
+    "undefined": "2023-02-08T07:11:01.931Z"
+  },
+  {
+    "code": "OEPYE00122",
+    "type": "NON_ISO",
+    "description": "PO to ISO mapping failed",
+    "undefined": "2023-02-08T07:11:01.912Z"
+  },
+  {
+    "code": "OEPYE00123",
+    "type": "NON_ISO",
+    "description": "Invalid timezone",
+    "undefined": "2023-02-08T07:11:01.950Z"
+  },
+  {
+    "code": "OEPYE00124",
+    "type": "NON_ISO",
+    "label": "ConsolStatsUpdateFailed",
+    "description": "Consolidation stats update failed",
+    "undefined": "2023-02-08T07:11:01.913Z"
+  },
+  {
+    "code": "OEPYE00126",
+    "type": "NON_ISO",
+    "label": "MessageGenFailure",
+    "description": "MsgHub connection refused",
+    "undefined": "2023-02-08T07:11:02.026Z"
+  },
+  {
+    "code": "OEPYE00127",
+    "type": "NON_ISO",
+    "description": "Entity Details is not defined in the message",
+    "undefined": "2023-02-08T07:11:01.933Z"
+  },
+  {
+    "code": "OEPYE00128",
+    "type": "NON_ISO",
+    "description": "PaysysId is not defined in the message",
+    "undefined": "2023-02-08T07:11:01.940Z"
+  },
+  {
+    "code": "OEPYE00129",
+    "type": "NON_ISO",
+    "description": "entitySrlNum, returnSttlmAmt, returnSttlmAmtCcy and creditor account are required in the message",
+    "undefined": "2023-02-08T07:11:01.941Z"
+  },
+  {
+    "code": "OEPYE00130",
+    "type": "NON_ISO",
+    "description": "Bank Settlement Account is required in the message",
+    "undefined": "2023-02-08T07:11:01.943Z"
+  },
+  {
+    "code": "OEPYE00131",
+    "type": "NON_ISO",
+    "description": "Bank Float Account is required in the message",
+    "undefined": "2023-02-08T07:11:01.944Z"
+  },
+  {
+    "code": "OEPYE00132",
+    "type": "NON_ISO",
+    "description": "Business Date is required in the message",
+    "undefined": "2023-02-08T07:11:01.948Z"
+  },
+  {
+    "code": "OEPYE00133",
+    "type": "NON_ISO",
+    "label": "RatecodeNotPresent",
+    "description": "Ratecode not present",
+    "undefined": "2023-02-08T07:11:02.030Z"
+  },
+  {
+    "code": "OEPYE00134",
+    "type": "NON_ISO",
+    "description": "Sanction status fetch failed: [{{errorDesc}}]",
+    "undefined": "2023-02-08T07:11:02.033Z"
+  },
+  {
+    "code": "OEPYE00135",
+    "type": "NON_ISO",
+    "description": "PaysysId, Service Id and Service Type is not defined in the message",
+    "undefined": "2023-02-08T07:11:02.035Z"
+  },
+  {
+    "code": "OEPYE00136",
+    "type": "NON_ISO",
+    "description": "ReqExecDate Time,{{errString}} is less than the Cut off time derived from rule ",
+    "undefined": "2023-02-08T07:11:02.038Z"
+  },
+  {
+    "code": "OEPYE00137",
+    "type": "NON_ISO",
+    "description": "CalendarId  {{errString}} not configured for holidaycheck and nextWorking day check ",
+    "undefined": "2023-02-08T07:11:02.042Z"
+  },
+  {
+    "code": "OEPYE00138",
+    "type": "NON_ISO",
+    "description": "Customer process can't be happen before settlement process",
+    "undefined": "2023-02-08T07:11:02.044Z"
+  },
+  {
+    "code": "OEPYE00139",
+    "type": "NON_ISO",
+    "description": "No entry found in FutureDatedProc for the entered group message identifier : {{fileId}}",
+    "undefined": "2023-02-08T07:11:02.208Z"
+  },
+  {
+    "code": "OEPYE00140",
+    "type": "NON_ISO",
+    "description": "Could not persist response event data.",
+    "undefined": "2023-02-08T07:11:02.302Z"
+  },
+  {
+    "code": "OEPYE00141",
+    "type": "NON_ISO",
+    "description": "Return already received.",
+    "undefined": "2023-02-08T07:11:02.308Z"
+  },
+  {
+    "code": "OEPYE00142",
+    "type": "NON_ISO",
+    "description": "Transaction posting request could not be processed due to technical error",
+    "undefined": "2023-02-08T07:11:02.318Z"
+  },
+  {
+    "code": "OEPYE00144",
+    "type": "NON_ISO",
+    "description": "Creditor account is invalid",
+    "undefined": "2023-02-24T06:11:56.127Z"
+  },
+  {
+    "code": "OEPYE00145",
+    "type": "NON_ISO",
+    "description": "Creditor account is closed",
+    "undefined": "2023-02-24T06:11:56.203Z"
+  },
+  {
+    "code": "OEPYE00146",
+    "type": "NON_ISO",
+    "description": "Creditor account is credit freezed",
+    "undefined": "2023-02-24T06:11:56.241Z"
+  },
+  {
+    "code": "OEPYNETW0001",
+    "type": "NON_ISO",
+    "description": "Duplicate Record Exists For - {{errStr}}",
+    "undefined": "2023-02-24T06:11:55.278Z"
+  },
+  {
+    "code": "OEPYNETW0002",
+    "type": "NON_ISO",
+    "description": "validation Error - {{errStr}}",
+    "undefined": "2023-02-24T06:11:55.563Z"
+  },
+  {
+    "code": "OEPYNETW0003",
+    "type": "NON_ISO",
+    "description": "HomeBic must be different from CrspdtBic",
+    "undefined": "2023-02-24T06:11:55.790Z"
+  },
+  {
+    "code": "OEPYNETW0004",
+    "type": "NON_ISO",
+    "description": "valStartDate should be before the valEndDate",
+    "undefined": "2023-02-24T06:11:55.829Z"
+  },
+  {
+    "code": "OEPYNETW0005",
+    "type": "NON_ISO",
+    "description": "valEndDate should be after the current date",
+    "undefined": "2023-02-24T06:11:55.834Z"
+  },
+  {
+    "code": "OEPYNETW0006",
+    "type": "NON_ISO",
+    "description": "Duplicate categoryType in the message details",
+    "undefined": "2023-02-24T06:11:55.841Z"
+  },
+  {
+    "code": "OEPYNETW0007",
+    "type": "NON_ISO",
+    "description": "Duplicate values exists in excludedMsgIds and includedMsgIds",
+    "undefined": "2023-02-24T06:11:55.876Z"
+  },
+  {
+    "code": "OEPYNETW0008",
+    "type": "NON_ISO",
+    "description": "Missing inputs in Payload",
+    "undefined": "2023-02-24T06:11:55.886Z"
+  },
+  {
+    "code": "OEPYNETW0009",
+    "type": "NON_ISO",
+    "description": "invalid DataType entered for input",
+    "undefined": "2023-02-24T06:11:55.891Z"
+  },
+  {
+    "code": "OEPYNETW0010",
+    "type": "NON_ISO",
+    "description": "Record not found for - {{errStr}}",
+    "undefined": "2023-02-24T06:11:55.919Z"
+  },
+  {
+    "code": "OEPYNETW0011",
+    "type": "NON_ISO",
+    "description": "Invalid Version",
+    "undefined": "2023-02-24T06:11:56.008Z"
+  },
+  {
+    "code": "OEPYNETW0012",
+    "type": "NON_ISO",
+    "description": "Record is already pending for verification",
+    "undefined": "2023-02-24T06:11:56.036Z"
+  },
+  {
+    "code": "OEPYNETW0013",
+    "type": "NON_ISO",
+    "description": "No value found in redis for - {{errStr}}",
+    "undefined": "2023-02-24T06:11:56.083Z"
+  },
+  {
+    "code": "OEPYNETW0014",
+    "type": "NON_ISO",
+    "description": " Redis Record insert failed {{errString}}",
+    "undefined": "2023-02-24T06:11:56.087Z"
+  },
+  {
+    "code": "OEPYNETW0015",
+    "type": "NON_ISO",
+    "description": "Current active upload version is not found {{errString}}",
+    "undefined": "2023-02-24T06:11:56.097Z"
+  },
+  {
+    "code": "OEPYREF001",
+    "type": "NON_ISO",
+    "description": "Invalid - {{errStr}}",
+    "undefined": "2023-02-08T07:11:02.320Z"
+  },
+  {
+    "code": "OEPYREF002",
+    "type": "NON_ISO",
+    "description": "Non Operational {{errStr}} cannot be set Default",
+    "undefined": "2023-02-08T07:11:02.335Z"
+  },
+  {
+    "code": "OEPYREF003",
+    "type": "NON_ISO",
+    "description": "{{errStr}} is Mandatory",
+    "undefined": "2023-02-08T07:11:02.338Z"
+  },
+  {
+    "code": "OEPYREF004",
+    "type": "NON_ISO",
+    "description": "Duplicate {{errStr}}",
+    "undefined": "2023-02-08T07:11:02.340Z"
+  },
+  {
+    "code": "OEPYREF005",
+    "type": "NON_ISO",
+    "description": "There should be only one default {{errStr}}",
+    "undefined": "2023-02-08T07:11:02.342Z"
+  },
+  {
+    "code": "OEPYREF006",
+    "type": "NON_ISO",
+    "description": "{{errStr}} Not found",
+    "undefined": "2023-02-08T07:11:02.344Z"
+  },
+  {
+    "code": "OEPYREF007",
+    "type": "NON_ISO",
+    "description": "You cannot set sttlmProcConfMsgId  when sttlmTranOnConfirmation is N",
+    "undefined": "2023-02-08T07:11:02.345Z"
+  },
+  {
+    "code": "OEPYREF008",
+    "type": "NON_ISO",
+    "description": "Record is already pending for verification",
+    "undefined": "2023-02-08T07:11:02.347Z"
+  },
+  {
+    "code": "OEPYREF009",
+    "type": "NON_ISO",
+    "description": "{{errStr}} Record Update failed",
+    "undefined": "2023-02-08T07:11:02.349Z"
+  },
+  {
+    "code": "OEPYREF010",
+    "type": "NON_ISO",
+    "description": "Unable to fetch record for {{errStr}}",
+    "undefined": "2023-02-08T07:11:02.350Z"
+  },
+  {
+    "code": "OEPYREF011",
+    "type": "NON_ISO",
+    "description": "InActive - {{errStr}}",
+    "undefined": "2023-02-08T07:11:02.351Z"
+  },
+  {
+    "code": "OEPYREF012",
+    "type": "NON_ISO",
+    "description": "Field validation failed - {{errStr}}",
+    "undefined": "2023-02-08T07:11:02.353Z"
+  },
+  {
+    "code": "PINL",
+    "type": "ISO",
+    "label": "PINLiabilityShift",
+    "description": "The card payment is fraudulent (lost and stolen fraud) and was processed as EMV transaction without PIN verification",
+    "undefined": "2023-02-08T07:11:00.354Z"
+  },
+  {
+    "code": "RC01",
+    "type": "ISO",
+    "label": "BankIdentifierIncorrect",
+    "description": "Bank identifier code specified in the message has an incorrect format (formerly IncorrectFormatForRoutingCode)",
+    "undefined": "2023-02-08T07:10:59.896Z"
+  },
+  {
+    "code": "RC02",
+    "type": "ISO",
+    "label": "InvalidBankIdentifier",
+    "description": "Bank identifier is invalid or missing. Generic usage if cannot specify between debit or credit account",
+    "undefined": "2023-02-08T07:10:59.899Z"
+  },
+  {
+    "code": "RC03",
+    "type": "ISO",
+    "label": "InvalidDebtorBankIdentifier",
+    "description": "Debtor bank identifier is invalid or missing",
+    "undefined": "2023-02-08T07:10:59.905Z"
+  },
+  {
+    "code": "RC04",
+    "type": "ISO",
+    "label": "InvalidCreditorBankIdentifier",
+    "description": "Creditor bank identifier {{clrSysIdMmbId}} is invalid or missing",
+    "undefined": "2023-02-08T07:10:59.908Z"
+  },
+  {
+    "code": "RC05",
+    "type": "ISO",
+    "label": "InvalidBICIdentifier",
+    "description": "BIC identifier is invalid or missing. Generic usage if cannot specify between debit or credit account",
+    "undefined": "2023-02-08T07:10:59.913Z"
+  },
+  {
+    "code": "RC06",
+    "type": "ISO",
+    "label": "InvalidDebtorBICIdentifier",
+    "description": "Debtor BIC identifier is invalid or missing",
+    "undefined": "2023-02-08T07:10:59.916Z"
+  },
+  {
+    "code": "RC07",
+    "type": "ISO",
+    "label": "InvalidCreditorBICIdentifier",
+    "description": "Creditor BIC identifier is invalid or missing",
+    "undefined": "2023-02-08T07:10:59.919Z"
+  },
+  {
+    "code": "RC08",
+    "type": "ISO",
+    "label": "InvalidClearingSystemMemberIdentifier",
+    "description": "ClearingSystemMemberidentifier is invalid or missing. Generic usage if cannot specify between debit or credit account",
+    "undefined": "2023-02-08T07:10:59.922Z"
+  },
+  {
+    "code": "RC09",
+    "type": "ISO",
+    "label": "InvalidDebtorClearingSystemMemberIdentifier",
+    "description": "Debtor ClearingSystemMember identifier {{clrSysIdMmbId}} is invalid or missing",
+    "undefined": "2023-02-08T07:10:59.925Z"
+  },
+  {
+    "code": "RC10",
+    "type": "ISO",
+    "label": "InvalidCreditorClearingSystemMemberIdentifier",
+    "description": "Creditor ClearingSystemMember identifier is invalid or missing",
+    "undefined": "2023-02-08T07:10:59.928Z"
+  },
+  {
+    "code": "RC11",
+    "type": "ISO",
+    "label": "InvalidIntermediaryAgent",
+    "description": "Intermediary Agent is invalid or missing",
+    "undefined": "2023-02-08T07:10:59.931Z"
+  },
+  {
+    "code": "RC12",
+    "type": "ISO",
+    "label": "MissingCreditorSchemeId",
+    "description": "Creditor Scheme Id is invalid or  missing",
+    "undefined": "2023-02-08T07:10:59.936Z"
+  },
+  {
+    "code": "RCON",
+    "type": "ISO",
+    "label": "RMessageConflict",
+    "description": "Conflict with R-Message",
+    "undefined": "2023-02-08T07:10:59.942Z"
+  },
+  {
+    "code": "RECI",
+    "type": "ISO",
+    "label": "ReceiverCustomerInformation",
+    "description": "Further information regarding the intended recipient",
+    "undefined": "2023-02-08T07:10:59.946Z"
+  },
+  {
+    "code": "RF01",
+    "type": "ISO",
+    "label": "NotUniqueTransactionReference",
+    "description": "Transaction reference is not unique within the message",
+    "undefined": "2023-02-08T07:10:59.967Z"
+  },
+  {
+    "code": "RR01",
+    "type": "ISO",
+    "label": "MissingDebtorAccountOrIdentification",
+    "description": "Specification of the debtorâ€™s account or unique identification needed for reasons of regulatory requirements is insufficient or missing",
+    "undefined": "2023-02-08T07:10:59.972Z"
+  },
+  {
+    "code": "RR02",
+    "type": "ISO",
+    "label": "MissingDebtorNameOrAddress",
+    "description": "Specification of the debtorâ€™s name and/or address needed for regulatory requirements is insufficient or missing",
+    "undefined": "2023-02-08T07:10:59.976Z"
+  },
+  {
+    "code": "RR03",
+    "type": "ISO",
+    "label": "MissingCreditorNameOrAddress",
+    "description": "Specification of the creditorâ€™s name and/or address needed for regulatory requirements is insufficient or missing",
+    "undefined": "2023-02-08T07:10:59.981Z"
+  },
+  {
+    "code": "RR04",
+    "type": "ISO",
+    "label": "RegulatoryReason",
+    "description": "Regulatory Reason",
+    "undefined": "2023-02-08T07:10:59.992Z"
+  },
+  {
+    "code": "RR05",
+    "type": "ISO",
+    "label": "RegulatoryInformationInvalid",
+    "description": "Regulatory or Central Bank Reporting information missing, incomplete or invalid",
+    "undefined": "2023-02-08T07:10:59.996Z"
+  },
+  {
+    "code": "RR06",
+    "type": "ISO",
+    "label": "TaxInformationInvalid",
+    "description": "Tax information missing, incomplete or invalid",
+    "undefined": "2023-02-08T07:10:59.998Z"
+  },
+  {
+    "code": "RR07",
+    "type": "ISO",
+    "label": "RemittanceInformationInvalid",
+    "description": "Remittance information structure does not comply with rules for payment type",
+    "undefined": "2023-02-08T07:11:00.002Z"
+  },
+  {
+    "code": "RR08",
+    "type": "ISO",
+    "label": "RemittanceInformationTruncated",
+    "description": "Remittance information truncated to comply with rules for payment type",
+    "undefined": "2023-02-08T07:11:00.006Z"
+  },
+  {
+    "code": "RR09",
+    "type": "ISO",
+    "label": "InvalidStructuredCreditorReference",
+    "description": "Structured creditor reference invalid or missing",
+    "undefined": "2023-02-08T07:11:00.009Z"
+  },
+  {
+    "code": "RR10",
+    "type": "ISO",
+    "label": "InvalidCharacterSet",
+    "description": "Character set supplied not valid for the country and payment type",
+    "undefined": "2023-02-08T07:11:00.013Z"
+  },
+  {
+    "code": "RR11",
+    "type": "ISO",
+    "label": "InvalidDebtorAgentServiceID",
+    "description": "Invalid or missing identification of a bank proprietary service",
+    "undefined": "2023-02-08T07:11:00.043Z"
+  },
+  {
+    "code": "RR12",
+    "type": "ISO",
+    "label": "InvalidPartyID",
+    "description": "Invalid or missing identification required within a particular country or payment type",
+    "undefined": "2023-02-08T07:11:00.047Z"
+  },
+  {
+    "code": "RUTA",
+    "type": "ISO",
+    "label": "ReturnUponUnableToApply",
+    "description": "Return following investigation request and no remediation possible",
+    "undefined": "2023-02-08T07:11:00.357Z"
+  },
+  {
+    "code": "S000",
+    "type": "ISO",
+    "label": "ValidRequestForCancellationAcknowledged",
+    "description": "Request for Cancellation is acknowledged following validation",
+    "undefined": "2023-02-08T07:11:00.051Z"
+  },
+  {
+    "code": "S001",
+    "type": "ISO",
+    "label": "UETRFlaggedForCancellation",
+    "description": "Unique End-to-end Transaction Reference (UETR) relating to a payment has been identified as being associated with a Request for Cancellation",
+    "undefined": "2023-02-08T07:11:00.054Z"
+  },
+  {
+    "code": "S002",
+    "type": "ISO",
+    "label": "NetworkStopOfUETR",
+    "description": "Unique End-to-end Transaction Reference (UETR) relating to a payment has been prevent from traveling across a messaging network",
+    "undefined": "2023-02-08T07:11:00.057Z"
+  },
+  {
+    "code": "S003",
+    "type": "ISO",
+    "label": "RequestForCancellationForwarded",
+    "description": "Request for Cancellation has been forwarded to the payment processing/last payment processing agent",
+    "undefined": "2023-02-08T07:11:00.064Z"
+  },
+  {
+    "code": "S004",
+    "type": "ISO",
+    "label": "RequestForCancellationDeliveryAcknowledgement",
+    "description": "Request for Cancellation has been acknowledged as delivered to payment processing/last payment processing agent",
+    "undefined": "2023-02-08T07:11:00.069Z"
+  },
+  {
+    "code": "SAE00001",
+    "type": "NON_ISO",
+    "label": "SancServiceErr",
+    "description": "Unable to send requst to 3rd party engine :  {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.396Z"
+  },
+  {
+    "code": "SAE00002",
+    "type": "NON_ISO",
+    "label": "SancFetchPOErr",
+    "description": "Unable to fetch PO for request ID :  {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.398Z"
+  },
+  {
+    "code": "SAE00003",
+    "type": "NON_ISO",
+    "label": "SancTxnEntryErr",
+    "description": "Unable to post seize debit transaction entry :  {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.423Z"
+  },
+  {
+    "code": "SAE00004",
+    "type": "NON_ISO",
+    "label": "SancSerGnrErr",
+    "description": "General Error.",
+    "undefined": "2023-02-08T07:11:01.464Z"
+  },
+  {
+    "code": "SAE00005",
+    "type": "NON_ISO",
+    "label": "SancSerNoDataErr",
+    "description": "No original or enriched data for request Id :  {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.469Z"
+  },
+  {
+    "code": "SAE00006",
+    "type": "NON_ISO",
+    "label": "SancSerNotRptReqErr",
+    "description": "Not a repeat request for requestId :  {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.517Z"
+  },
+  {
+    "code": "SAE00007",
+    "type": "NON_ISO",
+    "label": "SancSerMstAddErr",
+    "description": "Unable to add data to sanctions master for request Id :  {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.526Z"
+  },
+  {
+    "code": "SAE00008",
+    "type": "NON_ISO",
+    "label": "SancPaysysErr",
+    "description": "Call to Payment Operations server failed: {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.585Z"
+  },
+  {
+    "code": "SAE00009",
+    "type": "NON_ISO",
+    "label": "SeizeTranErr",
+    "description": "Failed to identify seize transaction entry with ID: {{idString}}",
+    "undefined": "2023-02-08T07:11:01.630Z"
+  },
+  {
+    "code": "SAE00010",
+    "type": "NON_ISO",
+    "label": "SancClntGnrErr",
+    "description": "Sanction General Error: {{errDesc}}",
+    "undefined": "2023-02-08T07:11:01.636Z"
+  },
+  {
+    "code": "SAReject",
+    "type": "NON_ISO",
+    "description": "Sanctions Reject",
+    "undefined": "2023-02-08T07:11:02.024Z"
+  },
+  {
+    "code": "SL01",
+    "type": "ISO",
+    "label": "SpecificServiceOfferedByDebtorAgent",
+    "description": "Due to specific service offered by the Debtor Agent",
+    "undefined": "2023-02-08T07:11:00.080Z"
+  },
+  {
+    "code": "SL02",
+    "type": "ISO",
+    "label": "SpecificServiceOfferedByCreditorAgent",
+    "description": "Due to specific service offered by the Creditor Agent",
+    "undefined": "2023-02-08T07:11:00.087Z"
+  },
+  {
+    "code": "SL03",
+    "type": "ISO",
+    "label": "ServiceofClearingSystem",
+    "description": "Due to a specific service offered by the clearing system",
+    "undefined": "2023-02-08T07:11:00.090Z"
+  },
+  {
+    "code": "SL11",
+    "type": "ISO",
+    "label": "CreditorNotOnWhitelistOfDebtor",
+    "description": "Whitelisting service offered by the Debtor Agent; Debtor has not included the Creditor on its â€œWhitelistâ€ (yet). In the Whitelist the Debtor may list all allowed Creditors to debit Debtor bank account",
+    "undefined": "2023-02-08T07:11:00.092Z"
+  },
+  {
+    "code": "SL12",
+    "type": "ISO",
+    "label": "CreditorOnBlacklistOfDebtor",
+    "description": "Blacklisting service offered by the Debtor Agent; Debtor included the Creditor on his â€œBlacklistâ€. In the Blacklist the Debtor may list all Creditors not allowed to debit Debtor bank account",
+    "undefined": "2023-02-08T07:11:00.095Z"
+  },
+  {
+    "code": "SL13",
+    "type": "ISO",
+    "label": "MaximumNumberOfDirectDebitTransactionsExceeded",
+    "description": "Due to Maximum allowed Direct Debit Transactions per period service offered by the Debtor Agent",
+    "undefined": "2023-02-08T07:11:00.124Z"
+  },
+  {
+    "code": "SL14",
+    "type": "ISO",
+    "label": "MaximumDirectDebitTransactionAmountExceeded",
+    "description": "Due to Maximum allowed Direct Debit Transaction amount service offered by the Debtor Agent",
+    "undefined": "2023-02-08T07:11:00.128Z"
+  },
+  {
+    "code": "SP01",
+    "type": "ISO",
+    "label": "PaymentStopped",
+    "description": "Payment is stopped by account holder",
+    "undefined": "2023-02-08T07:11:00.361Z"
+  },
+  {
+    "code": "SP02",
+    "type": "ISO",
+    "label": "PreviouslyStopped",
+    "description": "Previously stopped by means of a stop payment advise",
+    "undefined": "2023-02-08T07:11:00.365Z"
+  },
+  {
+    "code": "SVNR",
+    "type": "ISO",
+    "label": "ServiceNotRendered",
+    "description": "The card payment is returned since a cash amount rendered was not correct or goods or a service was not rendered to the customer, e.g. in an e-commerce situation",
+    "undefined": "2023-02-08T07:11:00.368Z"
+  },
+  {
+    "code": "SWIFT0001",
+    "type": "NON_ISO",
+    "description": "Currency Correspondent not found - {{errStr}}",
+    "undefined": "2023-02-08T07:11:02.968Z"
+  },
+  {
+    "code": "SWIFT0002",
+    "type": "NON_ISO",
+    "description": "Nostro/Vostro derivation rule not found.",
+    "undefined": "2023-02-08T07:11:02.969Z"
+  },
+  {
+    "code": "SWIFT0003",
+    "type": "NON_ISO",
+    "description": "Enter a valid charge Category(PRFEE, RBCH, SBCH).",
+    "undefined": "2023-02-08T07:11:02.971Z"
+  },
+  {
+    "code": "SWIFT0004",
+    "type": "NON_ISO",
+    "description": "Charge Amount is invalid.",
+    "undefined": "2023-02-08T07:11:02.972Z"
+  },
+  {
+    "code": "SWIFT0005",
+    "type": "NON_ISO",
+    "description": "Charge Debit Account is missing.",
+    "undefined": "2023-02-08T07:11:02.978Z"
+  },
+  {
+    "code": "SWIFT0006",
+    "type": "NON_ISO",
+    "description": "{{agentName}} Agent {{errString}} BIC or branch code is not configured in Network Directory",
+    "undefined": "2023-02-08T07:11:02.980Z"
+  },
+  {
+    "code": "SWIFT0007",
+    "type": "NON_ISO",
+    "description": "{{agentName}} Agent {{errString}} BIC or branch code is Invalid",
+    "undefined": "2023-02-08T07:11:02.981Z"
+  },
+  {
+    "code": "SWIFT0018",
+    "type": "NON_ISO",
+    "description": "Settlement failed - {{errStr}}",
+    "undefined": "2023-02-08T07:11:03.008Z"
+  },
+  {
+    "code": "SWIFT0019",
+    "type": "NON_ISO",
+    "description": "BIC is mandatory",
+    "undefined": "2023-02-08T07:11:03.010Z"
+  },
+  {
+    "code": "SWIFT0020",
+    "type": "NON_ISO",
+    "description": "Correspondent account not found - {{errStr}}",
+    "undefined": "2023-02-08T07:11:03.011Z"
+  },
+  {
+    "code": "SWIFT0021",
+    "type": "NON_ISO",
+    "description": "Currency is mandatory",
+    "undefined": "2023-02-08T07:11:03.012Z"
+  },
+  {
+    "code": "SWIFT0022",
+    "type": "NON_ISO",
+    "description": "Correspondent BIC verification failed",
+    "undefined": "2023-02-08T07:11:03.014Z"
+  },
+  {
+    "code": "SWIFT0023",
+    "type": "NON_ISO",
+    "description": "ND validation failed - {{errStr}}",
+    "undefined": "2023-02-08T07:11:03.015Z"
+  },
+  {
+    "code": "SWIFT0024",
+    "type": "NON_ISO",
+    "description": "Default sender bic is not present",
+    "undefined": "2023-02-08T07:11:03.016Z"
+  },
+  {
+    "code": "SWIFT0025",
+    "type": "NON_ISO",
+    "description": "Instucted and Settlement Currency Mismatch - {{errStr}}",
+    "undefined": "2023-02-08T07:11:03.018Z"
+  },
+  {
+    "code": "SWIFT0026",
+    "type": "NON_ISO",
+    "description": "Settlement Amount should be greater than 0",
+    "undefined": "2023-02-08T07:11:03.019Z"
+  },
+  {
+    "code": "SWIFT0027",
+    "type": "NON_ISO",
+    "description": "Incorrect BIC Format, Only 8 and 11 character BIC accepted - {{errStr}}",
+    "undefined": "2023-02-08T07:11:03.061Z"
+  },
+  {
+    "code": "SWIFT0028",
+    "type": "NON_ISO",
+    "description": "Charge Bearer is not present in message and pymntSchmParam",
+    "undefined": "2023-02-08T07:11:03.022Z"
+  },
+  {
+    "code": "SWIFT0029",
+    "type": "NON_ISO",
+    "description": "Charge Currency and chargeCreditAccount Currency cannot be different.",
+    "undefined": "2023-02-08T07:11:03.024Z"
+  },
+  {
+    "code": "SWIFT0030",
+    "type": "NON_ISO",
+    "description": "Credit amount of customer should be greater than 0.",
+    "undefined": "2023-02-08T07:11:03.025Z"
+  },
+  {
+    "code": "SWIFT0031",
+    "type": "NON_ISO",
+    "description": "Charge amount currency and settlement currency is different.",
+    "undefined": "2023-02-08T07:11:03.041Z"
+  },
+  {
+    "code": "SWIFT0032",
+    "type": "NON_ISO",
+    "description": "Charge Credit Account Not found.",
+    "undefined": "2023-02-08T07:11:03.043Z"
+  },
+  {
+    "code": "SWIFT0033",
+    "type": "NON_ISO",
+    "description": "Charge Amount currencies are different.",
+    "undefined": "2023-02-08T07:11:03.044Z"
+  },
+  {
+    "code": "SWIFT0034",
+    "type": "NON_ISO",
+    "description": "Charge Amount for DEBT scenario SP and CP Leg RBCH mismatch.",
+    "undefined": "2023-02-08T07:11:03.045Z"
+  },
+  {
+    "code": "SWIFT0035",
+    "type": "NON_ISO",
+    "description": "Default debtor account is not present.",
+    "undefined": "2023-02-08T07:11:03.055Z"
+  },
+  {
+    "code": "SWIFT0036",
+    "type": "NON_ISO",
+    "description": "Default creditor account is not present.",
+    "undefined": "2023-02-08T07:11:03.056Z"
+  },
+  {
+    "code": "SWIFT0037",
+    "type": "NON_ISO",
+    "description": "Payment order fetch error.",
+    "undefined": "2023-02-08T07:11:03.058Z"
+  },
+  {
+    "code": "SWIFT0038",
+    "type": "NON_ISO",
+    "description": "Invalid party details, {{partyType1}} and {{partyType2}} must be same as orignal PO",
+    "undefined": "2023-02-08T07:11:03.059Z"
+  },
+  {
+    "code": "SWIFT0039",
+    "type": "NON_ISO",
+    "description": "Invalid party details, {{partyType1}} and {{partyType2}} must be same as orignal PO",
+    "undefined": "2023-02-13T13:21:30.043Z"
+  },
+  {
+    "code": "SWIFT0040",
+    "type": "NON_ISO",
+    "description": "Invalid account data, {{accountId1}} and {{accountId2}} must be same as orignal PO",
+    "undefined": "2023-02-24T06:11:56.292Z"
+  },
+  {
+    "code": "SWIFT0041",
+    "type": "NON_ISO",
+    "description": "RMA auth not found for message {{messageName}}",
+    "undefined": "2023-02-24T06:11:56.431Z"
+  },
+  {
+    "code": "SWIFT0042",
+    "type": "NON_ISO",
+    "description": "RMA auth is not valid for the messsgae {{messageName}}",
+    "undefined": "2023-02-24T06:11:56.552Z"
+  },
+  {
+    "code": "SWIFT0043",
+    "type": "NON_ISO",
+    "description": "SP record fetch failed",
+    "undefined": "2023-02-24T06:11:56.602Z"
+  },
+  {
+    "code": "SWIFT0044",
+    "type": "NON_ISO",
+    "description": "Return event record update failed",
+    "undefined": "2023-02-24T06:11:56.619Z"
+  },
+  {
+    "code": "TA01",
+    "type": "ISO",
+    "label": "TransmissonAborted",
+    "description": "The transmission of the file was not successful â€“ it had to be aborted (for technical reasons)",
+    "undefined": "2023-02-08T07:11:00.132Z"
+  },
+  {
+    "code": "TD01",
+    "type": "ISO",
+    "label": "NoDataAvailable",
+    "description": "There is no data available (for download)",
+    "undefined": "2023-02-08T07:11:00.135Z"
+  },
+  {
+    "code": "TD02",
+    "type": "ISO",
+    "label": "FileNonReadable",
+    "description": "The file cannot be read (e.g. unknown format)",
+    "undefined": "2023-02-08T07:11:00.140Z"
+  },
+  {
+    "code": "TD03",
+    "type": "ISO",
+    "label": "IncorrectFileStructure",
+    "description": "The file format is incomplete or invalid",
+    "undefined": "2023-02-08T07:11:00.143Z"
+  },
+  {
+    "code": "TK01",
+    "type": "ISO",
+    "label": "TokenInvalid",
+    "description": "Token is invalid",
+    "undefined": "2023-02-08T07:11:00.146Z"
+  },
+  {
+    "code": "TK02",
+    "type": "ISO",
+    "label": "SenderTokenNotFound",
+    "description": "Token used for the sender does not exist",
+    "undefined": "2023-02-08T07:11:00.152Z"
+  },
+  {
+    "code": "TK03",
+    "type": "ISO",
+    "label": "ReceiverTokenNotFound",
+    "description": "Token used for the receiver does not exist",
+    "undefined": "2023-02-08T07:11:00.188Z"
+  },
+  {
+    "code": "TK09",
+    "type": "ISO",
+    "label": "TokenMissing",
+    "description": "Token required for request is missing",
+    "undefined": "2023-02-08T07:11:00.195Z"
+  },
+  {
+    "code": "TKCM",
+    "type": "ISO",
+    "label": "TokenCounterpartyMismatch",
+    "description": "Token found with counterparty mismatch",
+    "undefined": "2023-02-08T07:11:00.203Z"
+  },
+  {
+    "code": "TKSG",
+    "type": "ISO",
+    "label": "TokenSingleUse",
+    "description": "Single Use Token already used",
+    "undefined": "2023-02-08T07:11:00.207Z"
+  },
+  {
+    "code": "TKSP",
+    "type": "ISO",
+    "label": "TokenSuspended",
+    "description": "Token found with suspended status",
+    "undefined": "2023-02-08T07:11:00.209Z"
+  },
+  {
+    "code": "TKVE",
+    "type": "ISO",
+    "label": "TokenValueLimitExceeded",
+    "description": "Token found with value limit rule violation",
+    "undefined": "2023-02-08T07:11:00.213Z"
+  },
+  {
+    "code": "TKXP",
+    "type": "ISO",
+    "label": "TokenExpired",
+    "description": "Token expired",
+    "undefined": "2023-02-08T07:11:00.217Z"
+  },
+  {
+    "code": "TM01",
+    "type": "ISO",
+    "label": "InvalidCutOffTime",
+    "description": "Associated message was received after agreed processing cut-off time",
+    "undefined": "2023-02-08T07:11:00.220Z"
+  },
+  {
+    "code": "TRAC",
+    "type": "ISO",
+    "label": "RemovedFromTracking",
+    "description": "Return following direct debit being removed from tracking process",
+    "undefined": "2023-02-08T07:11:00.372Z"
+  },
+  {
+    "code": "TRIFX",
+    "type": "NON_ISO",
+    "description": "Triangulation currency  FX transactions not allowed.",
+    "undefined": "2023-02-08T07:11:01.759Z"
+  },
+  {
+    "code": "TS01",
+    "type": "ISO",
+    "label": "TransmissionSuccessful",
+    "description": "The (technical) transmission of the file was successful",
+    "undefined": "2023-02-08T07:11:00.224Z"
+  },
+  {
+    "code": "TS04",
+    "type": "ISO",
+    "label": "TransferToSignByHand",
+    "description": "The order was transferred to pass by accompanying note signed by hand",
+    "undefined": "2023-02-08T07:11:00.227Z"
+  },
+  {
+    "code": "UPAY",
+    "type": "ISO",
+    "label": "UnduePayment",
+    "description": "Payment is not justified",
+    "undefined": "2023-02-08T07:11:00.376Z"
+  },
+  {
+    "code": "ncex",
+    "type": "NON_ISO",
+    "label": "TatExpired",
+    "description": "TAT expired",
+    "undefined": "2023-02-08T07:11:00.907Z"
+  }
+]
