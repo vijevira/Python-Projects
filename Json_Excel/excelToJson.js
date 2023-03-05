@@ -1,14 +1,14 @@
-let XLSX = require("xlsx");
-let fs = require("fs");
+import { readFile } from 'xlsx';
+import { writeFile } from 'fs';
 
-let excelFileName = "./ExcelData/demo.xls";
-let jsonFileName = "./JsonData/demo.json";
+let excelFileName = './ExcelData/demo.xls';
+let jsonFileName = './JsonData/demo.json';
 
-let workbook = XLSX.readFile(excelFileName);
+let workbook = readFile(excelFileName);
 let sheet_name_list = workbook.SheetNames;
 
 let skipKeys = (key) => {
-  let keyList = ["auditLinkId"];
+  let keyList = ['auditLinkId'];
   if (keyList.includes(key)) {
     return true;
   }
@@ -20,7 +20,7 @@ sheet_name_list.forEach((keys) => {
   let headers = {};
   let data = [];
   for (let key in worksheet) {
-    if (key[0] === "!") {
+    if (key[0] === '!') {
       continue;
     }
     let col = key.substring(0, 1);
@@ -43,7 +43,7 @@ sheet_name_list.forEach((keys) => {
   data.shift();
   let dataSet = JSON.stringify(data);
 
-  fs.writeFile(jsonFileName, dataSet, function (err) {
+  writeFile(jsonFileName, dataSet, function (err) {
     if (err) {
       console.log(err);
     }

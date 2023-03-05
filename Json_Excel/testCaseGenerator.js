@@ -1,4 +1,4 @@
-let fs = require('fs');
+import { writeFile } from 'fs';
 
 let jsonFileName = './JsonData/test.json';
 
@@ -77,7 +77,7 @@ for (let i = 0; i < totalTestCases; i++){
 }
 
 dataSet = JSON.stringify(dataSet);
-fs.writeFile(jsonFileName, dataSet, function (err) {
+writeFile(jsonFileName, dataSet, function (err) {
     if (err) {
       console.log(err);
     }
