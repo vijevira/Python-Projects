@@ -60,7 +60,7 @@ let inputData = {
     'CHANGED FIELD': '',
     'MODIFICATION FLAG': 'A',
     ndSourceFile: '88073b4e-37e7-43c1-a0c4-51839ae1720b'
-}
+};
 
 let changeFieilds = {'FIELD F': 'F', 'FIELD E': 'E'};
 let totalTestCases = 5;
